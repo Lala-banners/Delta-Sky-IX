@@ -13,6 +13,7 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/Alien.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Menu/UI_Manager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/AlienSpawner.cs" />
     </changedPaths>
   </component>
@@ -65,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621236378802</updated>
       <workItem from="1621236387061" duration="1609000" />
-      <workItem from="1621380676746" duration="78000" />
+      <workItem from="1621380676746" duration="994000" />
     </task>
     <servers />
   </component>

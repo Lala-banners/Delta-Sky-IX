@@ -1,7 +1,7 @@
 using Mirror;
 using UnityEngine;
 
-namespace Space.AI
+namespace DeltaSky.AI
 {
     public class AlienSpawner : NetworkBehaviour
     {
@@ -13,6 +13,9 @@ namespace Space.AI
             }
         }
 
+        /// <summary>
+        /// This is used for Networking the enemy Spawner (later)
+        /// </summary>
         [Command]
         public void CmdSpawnObj()
         {
