@@ -31,7 +31,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -65,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621236378802</updated>
       <workItem from="1621236387061" duration="1609000" />
+      <workItem from="1621380676746" duration="78000" />
     </task>
     <servers />
   </component>
