@@ -2399,7 +2399,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Space Warfare
+  m_text: DELTA SKY IX
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cf0366b82c369054886ebc50c1e56151, type: 2}
   m_sharedMaterial: {fileID: 3191366603652743395, guid: cf0366b82c369054886ebc50c1e56151, type: 2}
