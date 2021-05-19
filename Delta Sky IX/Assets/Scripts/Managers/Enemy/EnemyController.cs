@@ -107,14 +107,12 @@ namespace DeltaSky.Controllers
         /// </summary>
         public void Flee()
         {
-            //if(currentHealth <= )
             Vector3 fleeDistance = transform.position - _target.position;
 
             if (currentHealth <= currentHealth / 15f)
             {
-                //transform.position = Vector3.MoveTowards(fleeDistance);
+                //Flee IEnumerator
             }
-
         }
 
         public void KillEnemy()
