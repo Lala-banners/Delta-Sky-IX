@@ -10,6 +10,23 @@ namespace DeltaSky.Menu
 {
     public class MainUIManager : MonoBehaviour
     {
+        #region Instance
+        public static MainUIManager instance;
+
+        private void Awake()
+        {
+            if (instance == null)
+            {
+                instance = this;
+            }
+            else if (instance != this)
+            {
+                Destroy(gameObject);
+                return;
+            }
+        }
+        #endregion
+        
         #region UI Elements
 
         [Header("Settings")] public Toggle fullscreenToggle;
@@ -66,9 +83,9 @@ namespace DeltaSky.Menu
         public void QuitGame()
         {
             Debug.Log("Quitting Game");
-#if UNITY_EDITOR
+            #if UNITY_EDITOR
             EditorApplication.ExitPlaymode();
-#endif
+            #endif
             Application.Quit();
         }
 

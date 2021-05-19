@@ -1,3 +1,4 @@
+using DeltaSky.Menu;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -24,11 +25,15 @@ namespace DeltaSky.Controllers.UI
         
         [Header("Game Over")] 
         public GameObject gameOverPanel;
+
+        [Header("Win")]
+        public GameObject winPanel;
         
         // Start is called before the first frame update
         void Start()
         {
             gameOverPanel.SetActive(false);
+            winPanel.SetActive(false);
         }
 
         public void GameOver()
@@ -43,5 +48,16 @@ namespace DeltaSky.Controllers.UI
             gameOverPanel.SetActive(false);
             Time.timeScale = 0;
         }
+
+        public void WinGame()
+        {
+            winPanel.SetActive(true);
+        }
+
+        public void QuitGame()
+        {
+            MainUIManager.instance.QuitGame();
+        }
+        
     }
 }

@@ -12,8 +12,8 @@ namespace DeltaSky.Controllers
         public float chaseRadius = 5f;
         public float attackRadius = 2f;
         [SerializeField] private float speed = 5f;
-        [SerializeField] private float distance;
-        [SerializeField] private float moveSpeed;
+        private float distance;
+        private float moveSpeed;
         
         [Header("Alien Health")]
         public Image healthRing;
