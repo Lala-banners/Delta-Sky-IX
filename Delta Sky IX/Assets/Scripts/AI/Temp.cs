@@ -13,5 +13,6 @@ using DeltaSky.Controllers;
         }
 
         public GameObject player;
+        public float health = 100f;
     }
 
