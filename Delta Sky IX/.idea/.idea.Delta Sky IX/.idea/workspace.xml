@@ -8,6 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Menu/InGameUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Menu/MainUIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Temp.cs" root0="FORCE_HIGHLIGHTING" />
@@ -18,8 +19,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/Temp.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/EnemyController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Menu/MainUIManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemyController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Menu/InGameUI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/NetworkAlienSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemySpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemyController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

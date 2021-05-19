@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace DeltaSky.Networking.Enemy
 {
-    public class AlienSpawner : NetworkBehaviour
+    public class NetworkAlienSpawner : NetworkBehaviour
     {
         private void Update()
         {

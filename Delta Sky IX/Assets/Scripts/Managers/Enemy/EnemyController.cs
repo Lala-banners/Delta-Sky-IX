@@ -31,7 +31,7 @@ namespace DeltaSky.Controllers
         {
             ChasePlayer();
         }
-
+        
         public void ChasePlayer()
         {
             distance = Vector3.Distance(transform.position, target.position);
@@ -65,9 +65,9 @@ namespace DeltaSky.Controllers
         }
 
         /// <summary>
-        /// Visible chase radius for testing
+        /// Visible chase and attack radius for Aliens (Testing)
         /// </summary>
-        private void OnDrawGizmos()
+        private void OnDrawGizmosSelected()
         {
             Gizmos.color = Color.yellow;
             Gizmos.DrawWireSphere(transform.position, chaseRadius);
