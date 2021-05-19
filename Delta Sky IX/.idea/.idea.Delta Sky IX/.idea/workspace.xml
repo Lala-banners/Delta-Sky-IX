@@ -8,20 +8,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Menu/InGameUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Menu/MainUIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Temp.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/EnemyController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/AlienSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/Temp.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/EnemyController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Menu/MainUIManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemyController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Menu/InGameUI.cs" />
     </changedPaths>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="TaskManager">
     <servers />

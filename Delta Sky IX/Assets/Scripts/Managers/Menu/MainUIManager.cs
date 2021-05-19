@@ -7,7 +7,7 @@ using UnityEngine.Audio;
 
 namespace DeltaSky.Menu
 {
-    public class UI_Manager : MonoBehaviour
+    public class MainUIManager : MonoBehaviour
     {
         #region UI Elements
 

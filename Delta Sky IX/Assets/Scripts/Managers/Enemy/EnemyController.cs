@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DeltaSky.Controllers.UI;
 
 namespace DeltaSky.Controllers
 {
@@ -50,11 +51,16 @@ namespace DeltaSky.Controllers
 
         public void DamagePlayer(float _damagePoints)
         {
-            damage -= _damagePoints;
+            damage = _damagePoints;
             
             if (distance <= attackRadius)
             {
-                Temp.temp.health -= _damagePoints;
+                Temp.temp.health -= damage;
+            }
+
+            if (Temp.temp.health <= 0)
+            {
+                InGameUI.instance.GameOver();
             }
         }
 

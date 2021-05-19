@@ -14,5 +14,13 @@ using DeltaSky.Controllers;
 
         public GameObject player;
         public float health = 100f;
+
+        private void Update()
+        {
+            if(health == 0)
+            {
+                health = 0;
+            }
+        }
     }
 
