@@ -25,8 +25,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/Alien.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Menu/MainUIManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemySpawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemyController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Menu/InGameUI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemyController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sju7pSnoYomEvPioJ2236zifnF" />
@@ -78,7 +78,7 @@
       <updated>1621398158252</updated>
       <workItem from="1621398182036" duration="7737000" />
       <workItem from="1621409550291" duration="25000" />
-      <workItem from="1621409605765" duration="1084000" />
+      <workItem from="1621409605765" duration="1334000" />
     </task>
     <servers />
   </component>
