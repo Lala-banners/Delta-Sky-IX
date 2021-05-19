@@ -669,6 +669,7 @@ MonoBehaviour:
   alienPrefab: {fileID: 7899940917847472647, guid: 80d8261115606a54da39fc558bad6c2e, type: 3}
   xPos: 0
   zPos: 0
+  spawnLocations: []
   enemyCount: 0
 --- !u!1 &1228112740
 GameObject:

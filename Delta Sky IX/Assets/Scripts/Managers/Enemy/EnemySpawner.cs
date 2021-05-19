@@ -12,11 +12,11 @@ namespace DeltaSky.Controllers.Spawn
         [SerializeField] private float xPos;
         [SerializeField] private float zPos;
         public int enemyCount;
-        private int maxEnemyCount;
+        private int maxEnemyCount = 10;
+        
         
         void Start()
         {
-            maxEnemyCount = 10;
             StartCoroutine(GenerateEnemies());
         }
 
@@ -29,8 +29,10 @@ namespace DeltaSky.Controllers.Spawn
             {
                 xPos = Random.Range(1, 50);
                 zPos = Random.Range(1, 30);
+                //Debug.Log(xPos + ", " + zPos); SPAWNING WORKS!
+
                 //Place enemy at generated coords
-                Instantiate(alienPrefab, new Vector3(xPos, 2, zPos), Quaternion.identity);
+                Instantiate(alienPrefab, new Vector3(xPos, 0, zPos), Quaternion.identity);
                 yield return new WaitForSeconds(0.5f);
                 enemyCount += 1;
             }
