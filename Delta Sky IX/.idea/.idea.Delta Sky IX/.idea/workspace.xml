@@ -14,8 +14,8 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/AlienSpawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AI/EnemyController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/Temp.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AI/EnemyController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

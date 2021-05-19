@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 
 namespace DeltaSky.Controllers
 {
@@ -9,21 +8,31 @@ namespace DeltaSky.Controllers
     {
         [Header("Enemy AI Stats")]
         public float chaseRadius = 10f;
-        private NavMeshAgent agent;
         private Transform target;
+        [SerializeField] private float speed = 5f;
         
         // Start is called before the first frame update
         void Start()
         {
             target = Temp.temp.player.transform;
-            agent = GetComponent<NavMeshAgent>();
+            transform.position = Vector3.zero;
         }
 
         // Update is called once per frame
         void Update()
         {
+            ChasePlayer();
+        }
 
-            
+        public void ChasePlayer()
+        {
+            float distance = Vector3.Distance(transform.position, target.position);
+
+            float moveSpeed = speed * Time.deltaTime;
+            if (distance <= chaseRadius)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed);
+            }
         }
 
         /// <summary>
