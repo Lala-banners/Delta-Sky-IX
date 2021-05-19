@@ -21,8 +21,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Menu/MainUIManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Menu/InGameUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/NetworkAlienSpawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemySpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemyController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemySpawner.cs" />
     </changedPaths>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />

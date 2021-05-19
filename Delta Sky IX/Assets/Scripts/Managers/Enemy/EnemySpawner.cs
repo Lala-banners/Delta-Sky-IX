@@ -9,17 +9,31 @@ namespace DeltaSky.Controllers.Spawn
     {
         [Header("Alien Spawning")] 
         [SerializeField] private GameObject alienPrefab;
+        [SerializeField] private float xPos;
+        [SerializeField] private float zPos;
+        public int enemyCount;
+        private int maxEnemyCount;
         
-        // Start is called before the first frame update
         void Start()
         {
-
+            maxEnemyCount = 10;
+            StartCoroutine(GenerateEnemies());
         }
 
-        // Update is called once per frame
-        void Update()
+        /// <summary>
+        /// Will run repeatedly until maximum count is reached. 
+        /// </summary>
+        IEnumerator GenerateEnemies()
         {
-
+            while (enemyCount < maxEnemyCount)
+            {
+                xPos = Random.Range(1, 50);
+                zPos = Random.Range(1, 30);
+                //Place enemy at generated coords
+                Instantiate(alienPrefab, new Vector3(xPos, 2, zPos), Quaternion.identity);
+                yield return new WaitForSeconds(0.5f);
+                enemyCount += 1;
+            }
         }
     }
 }
