@@ -78,11 +78,9 @@ namespace DeltaSky.Controllers
                 Destroy(Temp.temp);
             }
         }
-
         #endregion
 
         #region Related to Enemies
-        
         public void Health()
         {
             healthRing.fillAmount = Mathf.Lerp(healthRing.fillAmount, currentHealth / maximumHealth, smoothSpeed);
@@ -93,6 +91,7 @@ namespace DeltaSky.Controllers
             Color healthCol = Color.Lerp(Color.red, Color.green, (currentHealth / maximumHealth));
             healthRing.color = healthCol;
         }
+        
         public void DamageEnemies(float damagePoints)
         {
             currentHealth -= damagePoints;
@@ -103,16 +102,30 @@ namespace DeltaSky.Controllers
             }
         }
 
+        /// <summary>
+        /// Alien flees when health is below 15%
+        /// </summary>
+        public void Flee()
+        {
+            //if(currentHealth <= )
+            Vector3 fleeDistance = transform.position - _target.position;
+
+            if (currentHealth <= currentHealth / 15f)
+            {
+                //transform.position = Vector3.MoveTowards(fleeDistance);
+            }
+
+        }
+
         public void KillEnemy()
         {
             //Destroy(gameObject);
             Debug.Log("Enemies are dead!");
+            InGameUI.instance.WinGame();
         }
-
         #endregion
         
         #region Visualisation
-
         /// <summary>
         /// Visible chase and attack radius for Aliens (Testing)
         /// </summary>
@@ -124,7 +137,6 @@ namespace DeltaSky.Controllers
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(transform.position, attackRadius);
         }
-
         #endregion
     }
 }
