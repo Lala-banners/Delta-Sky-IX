@@ -4,6 +4,7 @@ using UnityEditor;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Audio;
+using UnityEngine.Serialization;
 
 namespace DeltaSky.Menu
 {
@@ -18,7 +19,7 @@ namespace DeltaSky.Menu
         [Header("Audio")] public Toggle muteToggle;
         public AudioMixer masterAudio;
         public Slider musicSlider;
-        public Slider SFXSlider;
+        [FormerlySerializedAs("SFXSlider")] public Slider sfxSlider;
 
         [Header("Menu Panels")] public GameObject optionsMenu;
         public GameObject mainMenu;
@@ -85,15 +86,15 @@ namespace DeltaSky.Menu
         }
 
         //This changes volume in options
-        public void SetMusicVolume(float MusicVol)
+        public void SetMusicVolume(float musicVol)
         {
-            masterAudio.SetFloat("MusicVol", MusicVol);
+            masterAudio.SetFloat("MusicVol", musicVol);
         }
 
         //This changes sound effects volume 
-        public void SetSFXVolume(float SFXVol)
+        public void SetSfxVolume(float sfxVol)
         {
-            masterAudio.SetFloat("SFXVol", SFXVol);
+            masterAudio.SetFloat("SFXVol", sfxVol);
         }
 
         //Function to mute volume when toggle is active
@@ -165,10 +166,10 @@ namespace DeltaSky.Menu
                 PlayerPrefs.SetFloat("MusicVol", musicVol);
             }
 
-            float SFXVol;
-            if (masterAudio.GetFloat("SFXVol", out SFXVol))
+            float sfxVol;
+            if (masterAudio.GetFloat("SFXVol", out sfxVol))
             {
-                PlayerPrefs.SetFloat("SFXVol", SFXVol);
+                PlayerPrefs.SetFloat("SFXVol", sfxVol);
             }
 
             PlayerPrefs.Save();
@@ -203,9 +204,9 @@ namespace DeltaSky.Menu
 
             if (PlayerPrefs.HasKey("SFXVol"))
             {
-                float SFXVol = PlayerPrefs.GetFloat("SFXVol");
-                SFXSlider.value = SFXVol;
-                masterAudio.SetFloat("SFXVol", SFXVol);
+                float sfxVol = PlayerPrefs.GetFloat("SFXVol");
+                sfxSlider.value = sfxVol;
+                masterAudio.SetFloat("SFXVol", sfxVol);
             }
         }
 

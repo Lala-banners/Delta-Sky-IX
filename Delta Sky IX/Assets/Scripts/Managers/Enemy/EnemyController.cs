@@ -1,67 +1,117 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using DeltaSky.Controllers.UI;
+using UnityEngine;
+using UnityEngine.UI;
 
 namespace DeltaSky.Controllers
 {
     public class EnemyController : MonoBehaviour
     {
-        private Transform target;
-        
-        [Header("Enemy AI Stats")]
-        [SerializeField] private float chaseRadius = 5f;
+        private Transform _target;
+
+        [Header("Enemy AI Stats")] [SerializeField]
+        public float chaseRadius = 5f;
+        public float attackRadius = 2f;
         [SerializeField] private float speed = 5f;
         [SerializeField] private float distance;
         [SerializeField] private float moveSpeed;
-
-        [Header("Enemy Damage Stats")] 
-        public float damage;
-        [SerializeField] private float attackRadius = 2f;
+        
+        [Header("Alien Health")]
+        public Image healthRing;
+        public float smoothSpeed;
+        [SerializeField] private float currentHealth = 100f;
+        private float maximumHealth = 100f;
         
         // Start is called before the first frame update
         void Start()
         {
-            target = Temp.temp.player.transform;
+            _target = Temp.temp.player.transform;
+            currentHealth = 100f;
+            maximumHealth = 100f;
         }
 
         // Update is called once per frame
         void Update()
         {
             ChasePlayer();
+            
+            smoothSpeed = 3f * Time.deltaTime; //To smooth transition from one colour to another
+            Health();
+            UpdateHealthRing();
         }
-        
+
+        #region Related to Player
         public void ChasePlayer()
         {
-            distance = Vector3.Distance(transform.position, target.position);
+            distance = Vector3.Distance(transform.position, _target.position);
 
             moveSpeed = speed * Time.deltaTime;
-            
+
             if (distance <= chaseRadius)
             {
-                transform.position = Vector3.MoveTowards(transform.position, target.position, moveSpeed);
+                transform.position = Vector3.MoveTowards(transform.position, _target.position, moveSpeed);
             }
 
             if (distance <= attackRadius)
+            {
+                DamagePlayer(2f);
+            }
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (other.gameObject.CompareTag("Player"))
             {
                 DamagePlayer(5f);
             }
         }
 
-        public void DamagePlayer(float _damagePoints)
+        public void DamagePlayer(float damagePoints)
         {
-            damage = _damagePoints;
-            
-            if (distance <= attackRadius)
+            if (Temp.temp.health > 0)
             {
-                Temp.temp.health -= damage;
+                Temp.temp.health -= damagePoints;
             }
 
-            if (Temp.temp.health <= 0)
+            if (Temp.temp.health.Equals(0))
             {
                 InGameUI.instance.GameOver();
+                Destroy(Temp.temp);
             }
         }
+
+        #endregion
+
+        #region Related to Enemies
+        
+        public void Health()
+        {
+            healthRing.fillAmount = Mathf.Lerp(healthRing.fillAmount, currentHealth / maximumHealth, smoothSpeed);
+        }
+
+        public void UpdateHealthRing()
+        {
+            Color healthCol = Color.Lerp(Color.red, Color.green, (currentHealth / maximumHealth));
+            healthRing.color = healthCol;
+        }
+        public void DamageEnemies(float damagePoints)
+        {
+            currentHealth -= damagePoints;
+
+            if (currentHealth.Equals(0))
+            {
+                KillEnemy();
+            }
+        }
+
+        public void KillEnemy()
+        {
+            //Destroy(gameObject);
+            Debug.Log("Enemies are dead!");
+        }
+
+        #endregion
+        
+        #region Visualisation
 
         /// <summary>
         /// Visible chase and attack radius for Aliens (Testing)
@@ -74,5 +124,7 @@ namespace DeltaSky.Controllers
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(transform.position, attackRadius);
         }
+
+        #endregion
     }
 }

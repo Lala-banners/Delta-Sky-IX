@@ -14,18 +14,20 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Menu/InGameUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Menu/MainUIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/Alien.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Temp.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/AlienSpawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/AI/Temp.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/EnemyController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Menu/MainUIManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Menu/InGameUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/NetworkAlienSpawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemyController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemySpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AI/Temp.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Menu/InGameUI.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/Alien.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemyController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sju7pSnoYomEvPioJ2236zifnF" />
@@ -39,6 +41,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.editor.code.editing" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -73,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621398158252</updated>
-      <workItem from="1621398182036" duration="320000" />
+      <workItem from="1621398182036" duration="4831000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 using UnityEngine.SceneManagement;
 
 namespace DeltaSky.Controllers.UI
@@ -40,9 +37,9 @@ namespace DeltaSky.Controllers.UI
             Time.timeScale = 1;
         }
 
-        public void Retry(int _sceneIndex)
+        public void Retry(int sceneIndex)
         {
-            SceneManager.LoadScene(_sceneIndex);
+            SceneManager.LoadScene(sceneIndex);
             gameOverPanel.SetActive(false);
             Time.timeScale = 0;
         }

@@ -1,7 +1,7 @@
+using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using DeltaSky.Controllers;
+using Random = UnityEngine.Random;
 
 namespace DeltaSky.Controllers.Spawn
 {
@@ -11,11 +11,12 @@ namespace DeltaSky.Controllers.Spawn
         [SerializeField] private GameObject alienPrefab;
         [SerializeField] private float xPos;
         [SerializeField] private float zPos;
+        private float xSpacing = 0.1f;
+        private float zSpacing = 0.1f;
         public int enemyCount;
-        private int maxEnemyCount = 10;
-        
-        
-        void Start()
+        private int _maxEnemyCount = 5;
+
+        private void Awake()
         {
             StartCoroutine(GenerateEnemies());
         }
@@ -25,15 +26,15 @@ namespace DeltaSky.Controllers.Spawn
         /// </summary>
         IEnumerator GenerateEnemies()
         {
-            while (enemyCount < maxEnemyCount)
+            while (enemyCount < _maxEnemyCount)
             {
-                xPos = Random.Range(1, 50);
-                zPos = Random.Range(1, 30);
+                xPos = Random.Range(1, 10);
+                zPos = Random.Range(1, 20);
                 //Debug.Log(xPos + ", " + zPos); SPAWNING WORKS!
 
                 //Place enemy at generated coords
-                Instantiate(alienPrefab, new Vector3(xPos, 0, zPos), Quaternion.identity);
-                yield return new WaitForSeconds(0.5f);
+                Instantiate(alienPrefab, new Vector3(xPos + xSpacing, 0, zPos + zSpacing), Quaternion.identity);
+                yield return new WaitForSeconds(0.2f); //Ever .2 seconds an enemy will spawn
                 enemyCount += 1;
             }
         }

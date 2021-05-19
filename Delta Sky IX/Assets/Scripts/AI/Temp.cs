@@ -1,9 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
+using DeltaSky.Controllers.UI;
 using UnityEngine;
-using DeltaSky.Controllers;
+using UnityEngine.UI;
 
-    public class Temp : MonoBehaviour
+public class Temp : MonoBehaviour
     {
         public static Temp temp;
 
@@ -14,13 +13,31 @@ using DeltaSky.Controllers;
 
         public GameObject player;
         public float health = 100f;
+        private float _maxHealth = 100f;
+        private float smoothSpeed;
+        public Image healthRing;
 
         private void Update()
         {
-            if(health == 0)
+            if(health.Equals(_maxHealth))
             {
-                health = 0;
+                health = _maxHealth;
             }
+            
+            smoothSpeed = 3f * Time.deltaTime; //To smooth transition from one colour to another
+            Health();
+            UpdateHealthRing();
+        }
+
+        public void Health()
+        {
+            healthRing.fillAmount = Mathf.Lerp(healthRing.fillAmount, health / _maxHealth, smoothSpeed);
+        }
+
+        public void UpdateHealthRing()
+        {
+            Color healthCol = Color.Lerp(Color.red, Color.green, (health/_maxHealth));
+            healthRing.color = healthCol;
         }
     }
 
