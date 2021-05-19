@@ -1,7 +1,7 @@
 using Mirror;
 using UnityEngine;
 
-namespace DeltaSky.AI
+namespace DeltaSky.Networking.Enemy
 {
     public class AlienSpawner : NetworkBehaviour
     {
