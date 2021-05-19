@@ -1,29 +1,33 @@
 using DeltaSky.Controllers.UI;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.AI;
 
 namespace DeltaSky.Controllers
 {
     public class EnemyController : MonoBehaviour
     {
+        [Header("AI NavMesh")] public NavMeshAgent agent;
+        private Vector3 newPos;
+        
         private Transform _target;
 
-        [Header("Enemy AI Stats")] [SerializeField]
-        public float chaseRadius = 5f;
+        [Header("Enemy AI Stats")] public float chaseRadius = 5f;
         public float attackRadius = 2f;
         [SerializeField] private float speed = 5f;
         private float distance;
         private float moveSpeed;
-        
-        [Header("Alien Health")]
+
+        [Header("Alien Health")] 
         public Image healthRing;
         public float smoothSpeed;
         [SerializeField] private float currentHealth = 100f;
         private float maximumHealth = 100f;
-        
+
         // Start is called before the first frame update
         void Start()
         {
+            agent = GetComponent<NavMeshAgent>();
             _target = Temp.temp.player.transform;
             currentHealth = 100f;
             maximumHealth = 100f;
@@ -33,13 +37,19 @@ namespace DeltaSky.Controllers
         void Update()
         {
             ChasePlayer();
-            
+
             smoothSpeed = 3f * Time.deltaTime; //To smooth transition from one colour to another
             Health();
             UpdateHealthRing();
+
+            if (currentHealth <= 10f)
+            {
+                FleeFromPlayer();
+            }
         }
 
         #region Related to Player
+
         public void ChasePlayer()
         {
             distance = Vector3.Distance(transform.position, _target.position);
@@ -78,9 +88,11 @@ namespace DeltaSky.Controllers
                 Destroy(Temp.temp);
             }
         }
+
         #endregion
 
         #region Related to Enemies
+
         public void Health()
         {
             healthRing.fillAmount = Mathf.Lerp(healthRing.fillAmount, currentHealth / maximumHealth, smoothSpeed);
@@ -91,7 +103,7 @@ namespace DeltaSky.Controllers
             Color healthCol = Color.Lerp(Color.red, Color.green, (currentHealth / maximumHealth));
             healthRing.color = healthCol;
         }
-        
+
         public void DamageEnemies(float damagePoints)
         {
             currentHealth -= damagePoints;
@@ -105,27 +117,26 @@ namespace DeltaSky.Controllers
         /// <summary>
         /// Alien flees when health is below 15%
         /// </summary>
-        public void Flee()
+        public void FleeFromPlayer()
         {
-            Vector3 fleeDistance = transform.position - _target.position;
-
-            if (currentHealth <= currentHealth / 15f)
-            {
-                //Flee IEnumerator
-            }
+            Vector3 directionToPlayer = transform.position - _target.position;
+            newPos = transform.position + directionToPlayer;
+            agent.SetDestination(newPos);
         }
 
         public void KillEnemy()
         {
             //Destroy(gameObject);
-            Debug.Log("Enemies are dead!");
             InGameUI.instance.WinGame();
+            Debug.Log("Enemies are dead!");
         }
+
         #endregion
-        
+
         #region Visualisation
+
         /// <summary>
-        /// Visible chase and attack radius for Aliens (Testing)
+        /// Visible chase, attack & flee radius for Aliens (Testing)
         /// </summary>
         private void OnDrawGizmosSelected()
         {
@@ -135,6 +146,7 @@ namespace DeltaSky.Controllers
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(transform.position, attackRadius);
         }
+
         #endregion
     }
 }

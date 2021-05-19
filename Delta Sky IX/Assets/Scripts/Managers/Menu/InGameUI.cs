@@ -52,6 +52,7 @@ namespace DeltaSky.Controllers.UI
         public void WinGame()
         {
             winPanel.SetActive(true);
+            Time.timeScale = 1;
         }
 
         public void QuitGame()
