@@ -1,4 +1,4 @@
-using Castle.Components.DictionaryAdapter.Xml;
+
 using UnityEngine;
 
 namespace DeltaSky.Controllers
@@ -41,7 +41,7 @@ namespace DeltaSky.Controllers
             if (Input.GetKeyDown(KeyCode.D))
             {
                 _elevator = ElevatorStates.goDown;
-                player.transform.parent = null;
+                player.transform.parent = gameObject.transform;
             }
 
             ElevatorSM();
