@@ -12,6 +12,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/MovePlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Menu/InGameUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Menu/MainUIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Temp.cs" root0="FORCE_HIGHLIGHTING" />
@@ -28,6 +29,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Menu/InGameUI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemyController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ElevatorController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AI/MovePlayer.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sju7pSnoYomEvPioJ2236zifnF" />
@@ -81,6 +83,7 @@
       <workItem from="1621409550291" duration="25000" />
       <workItem from="1621409605765" duration="1334000" />
       <workItem from="1621750873394" duration="1347000" />
+      <workItem from="1621914064598" duration="61000" />
     </task>
     <servers />
   </component>
