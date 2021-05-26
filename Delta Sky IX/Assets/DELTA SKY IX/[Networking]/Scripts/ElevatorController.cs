@@ -1,9 +1,12 @@
+using Castle.Components.DictionaryAdapter.Xml;
 using UnityEngine;
 
 namespace DeltaSky.Controllers
 {
     public class ElevatorController : MonoBehaviour
     {
+        public GameObject player;
+        
         private enum ElevatorStates
         {
             goUp,
@@ -32,11 +35,13 @@ namespace DeltaSky.Controllers
             if (Input.GetKeyDown(KeyCode.U))
             {
                 _elevator = ElevatorStates.goUp;
+                player.transform.parent = gameObject.transform;
             }
 
             if (Input.GetKeyDown(KeyCode.D))
             {
                 _elevator = ElevatorStates.goDown;
+                player.transform.parent = null;
             }
 
             ElevatorSM();
@@ -67,6 +72,7 @@ namespace DeltaSky.Controllers
         private void ElevatorSM() {
             if (_elevator.Equals(ElevatorStates.goDown))
             {
+                
                 newPosition = bottomPosition.position;
                 transform.position =
                     Vector3.Lerp(transform.position, newPosition,
