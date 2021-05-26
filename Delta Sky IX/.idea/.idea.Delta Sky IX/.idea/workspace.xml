@@ -10,13 +10,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/MovePlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Menu/InGameUI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Managers/Menu/MainUIManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/Temp.cs" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/AlienSpawner.cs" />
@@ -30,6 +23,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Managers/Enemy/EnemyController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/ElevatorController.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/AI/MovePlayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIxNetworkManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIxNetworkDiscovery.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIXPlayerNet.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/AI/MovePlayer.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/ElevatorController.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/AI/Temp.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sju7pSnoYomEvPioJ2236zifnF" />
@@ -39,6 +38,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3502052" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -50,10 +51,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19440">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="19440" />
       <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
@@ -84,6 +85,7 @@
       <workItem from="1621409605765" duration="1334000" />
       <workItem from="1621750873394" duration="1347000" />
       <workItem from="1621914064598" duration="61000" />
+      <workItem from="1621994890739" duration="5279000" />
     </task>
     <servers />
   </component>
