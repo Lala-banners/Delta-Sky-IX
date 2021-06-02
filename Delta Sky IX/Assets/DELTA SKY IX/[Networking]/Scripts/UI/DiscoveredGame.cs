@@ -41,9 +41,11 @@ namespace DeltaSkyIX.UI
         private void JoinGame()
         {
             // When we click the button, connect to the server displayed on the button
+            Debug.Log(("Join game"));
             networkManager.networkAddress = response.EndPoint.Address.ToString();
             if(connectionMenu.IsJoinPlayerNamed())
             {
+                Debug.Log(("Start client called"));
                 networkManager.StartClient();
             }
         }

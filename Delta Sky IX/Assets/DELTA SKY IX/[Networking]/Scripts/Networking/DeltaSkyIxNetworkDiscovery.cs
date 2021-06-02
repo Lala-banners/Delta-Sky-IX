@@ -1,18 +1,9 @@
-using System;
-using System.Net;
 using Mirror;
 using Mirror.Discovery;
-
+using System;
+using System.Net;
 using UnityEngine;
 using UnityEngine.Events;
-
-using DeltaSkyIX.UI;
-
-/*
-	Discovery Guide: https://mirror-networking.com/docs/Guides/NetworkDiscovery.html
-    Documentation: https://mirror-networking.com/docs/Components/NetworkDiscovery.html
-    API Reference: https://mirror-networking.com/docs/api/Mirror.Discovery.NetworkDiscovery.html
-*/
 
 namespace DeltaSkyIX.Networking
 {
@@ -29,7 +20,7 @@ namespace DeltaSkyIX.Networking
     {
         // The server that sent this message
         // this is a property so that it is not serialized but the client
-        // fills this up after we recieve it
+        // fills this up after we receive it
         public IPEndPoint EndPoint { get; set; }
 
         public Uri uri;
@@ -131,7 +122,6 @@ namespace DeltaSkyIX.Networking
         protected override void ProcessResponse(DiscoveryResponse _response, IPEndPoint _endpoint) 
         {
             // We don't fully understand this code, we just know it's something we need to do.
-            #region WTF
             // we recieved a message from the remote endpoint
             _response.EndPoint = _endpoint;
 
@@ -144,7 +134,6 @@ namespace DeltaSkyIX.Networking
                 Host = _response.EndPoint.Address.ToString()
             };
             _response.uri = realUri.Uri;
-            #endregion
 
             onServerFound.Invoke(_response);
         }

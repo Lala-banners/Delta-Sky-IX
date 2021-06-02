@@ -1,11 +1,9 @@
-using UnityEngine;
-using UnityEngine.Events;
-using UnityEngine.SceneManagement;
-using Mirror;
-using System.Collections;
 using DeltaSkyIX.Player;
 using DeltaSkyIX.UI;
-using System;
+using Mirror;
+using System.Collections;
+using UnityEngine;
+using UnityEngine.Events;
 
 namespace DeltaSkyIX.Networking
 {
@@ -52,8 +50,10 @@ namespace DeltaSkyIX.Networking
 
         public void AssignPlayerToSlot(bool _left, int _slotId, byte _playerId)
         {
+            Debug.Log("Assign player to slot");
             if(isLocalPlayer)
                 CmdAssignPlayerToLobbySlot(_left, _slotId, _playerId);
+            else Debug.Log("Not local player");
         }
 
         #region Commands
@@ -78,10 +78,13 @@ namespace DeltaSkyIX.Networking
         [ClientRpc]
         public void RpcAssignPlayerToLobbySlot(bool _left, int _slotId, byte _playerId)
         {
+            Debug.Log("Rpc assign player");
             // If this is running on the host client, we don't need to set the player
             // to the slot, so just ignore this call
             if(DeltaSkyIxNetworkManager.Instance.IsHost)
                 return;
+            
+            Debug.Log("Rpc assign player 2");
 
             // Find the Lobby in the scene and set the player to the correct slot
             StartCoroutine(AssignPlayerToLobbySlotDelayed(DeltaSkyIxNetworkManager.Instance.GetPlayerForId(_playerId),
@@ -114,12 +117,14 @@ namespace DeltaSkyIX.Networking
         {
             // Keep trying to get the lobby until it's not null
             Lobby lobby = FindObjectOfType<Lobby>();
+            Debug.Log("Looking for lobby");
             while(lobby == null)
             {
                 yield return null;
 
                 lobby = FindObjectOfType<Lobby>();
             }
+            Debug.Log("Found lobby");
 
             // Lobby successfully got, so assign the player
             lobby.AssignPlayerToSlot(_player, _left, _slotId);
@@ -142,9 +147,11 @@ namespace DeltaSkyIX.Networking
         // Update is called once per frame
         private void Update()
         {
+            Debug.Log("Update");
             // Determine if we are on the host client
             if(DeltaSkyIxNetworkManager.Instance.IsHost)
             {
+                Debug.Log("Is host");
                 // Attempt to get the lobby if we haven't already joined a lobby
                 if(lobby == null && !hasJoinedLobby)
                     lobby = FindObjectOfType<Lobby>();

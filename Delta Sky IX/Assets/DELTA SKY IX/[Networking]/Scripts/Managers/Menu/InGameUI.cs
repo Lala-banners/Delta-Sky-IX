@@ -28,6 +28,8 @@ namespace DeltaSky.Controllers.UI
 
         [Header("Win")]
         public GameObject winPanel;
+
+        public GameObject gameUI;
         
         // Start is called before the first frame update
         void Start()
@@ -58,6 +60,10 @@ namespace DeltaSky.Controllers.UI
         public void QuitGame()
         {
             MainUIManager.instance.QuitGame();
+        }
+
+        public void StartGame() {
+            gameUI.SetActive(true);
         }
         
     }

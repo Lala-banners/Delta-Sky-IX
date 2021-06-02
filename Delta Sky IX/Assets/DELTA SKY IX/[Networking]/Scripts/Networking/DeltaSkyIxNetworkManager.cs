@@ -1,14 +1,23 @@
 using UnityEngine;
-
 using Mirror;
-
+using System;
 using System.Linq;
 using System.Collections.Generic;
 
 namespace DeltaSkyIX.Networking
 {
     public class DeltaSkyIxNetworkManager : NetworkManager
+    
     {
+        public override void Start() {
+            base.Start();
+            DontDestroyOnLoad(gameObject);
+        }
+
+        public void Update() {
+            DontDestroyOnLoad(gameObject);
+        }
+
         /// <summary>
         /// A reference to the battlecars version of the network manager singleton.
         /// </summary>
@@ -42,11 +51,18 @@ namespace DeltaSkyIX.Networking
 
         private Dictionary<byte, DeltaSkyIXPlayerNet> players = new Dictionary<byte, DeltaSkyIXPlayerNet>();
 
+        public void StartMatch() {
+            discovery.StopDiscovery();
+        }
+        
+        
         /// <summary>
         /// Runs only when connecting to an online scene as a host
         /// </summary>
         public override void OnStartHost()
         {
+            DontDestroyOnLoad(gameObject);
+
             IsHost = true;
             discovery.AdvertiseServer();
         }
