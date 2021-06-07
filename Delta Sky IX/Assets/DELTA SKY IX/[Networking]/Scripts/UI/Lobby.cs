@@ -17,7 +17,7 @@ namespace DeltaSkyIX.UI
         [SerializeField] private GameObject rightTeamHolder;
         [SerializeField] private Button readyUpButton;
         [SerializeField] private Button startGameButton;
-        [SerializeField] private Camera uiCam;
+        //[SerializeField] private Camera uiCam;
 
         // Flipping bool that determines which column the connected player will be added to
         private bool assigningToLeft = true;
@@ -102,8 +102,8 @@ namespace DeltaSkyIX.UI
 
         public void OnMatchStarted()
         {
-            uiCam.enabled = false;
-            gameObject.SetActive(false);
+            //uiCam.enabled = false;
+            this.gameObject.SetActive(false);
         }
 
         // Update is called once per frame

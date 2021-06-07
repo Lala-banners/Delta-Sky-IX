@@ -14,7 +14,7 @@ namespace DeltaSkyIX.Networking
         [SyncVar] public bool ready = false;
 
         [SerializeField] private new CameraMotor camera;
-        [SerializeField] private PlayerMotor playerMotor;
+        //[SerializeField] private PlayerMotor playerMotor;
         [SerializeField] private GameObject[] matchObjects;
 
         public UnityEvent onMatchStarted = new UnityEvent();
@@ -105,7 +105,7 @@ namespace DeltaSkyIX.Networking
             
             DeltaSkyIXPlayerNet player = DeltaSkyIxNetworkManager.Instance.LocalPlayer;
             FindObjectOfType<Lobby>().OnMatchStarted();
-            player.playerMotor.Enable();
+            //player.playerMotor.Enable();
             player.camera.Enable();
         }
 
@@ -174,7 +174,7 @@ namespace DeltaSkyIX.Networking
         public override void OnStartLocalPlayer()
         {
             // Load the scene with the lobby
-            LevelManager.LoadLevel("InGameMenus");
+            LevelManager.LoadLevel("Gameplay");
         }
 
         // Runs when the client is disconnected from the server
