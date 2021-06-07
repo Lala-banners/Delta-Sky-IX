@@ -1,3 +1,4 @@
+using DeltaSky.Controllers.UI;
 using DeltaSkyIX.Player;
 using DeltaSkyIX.UI;
 using Mirror;
@@ -17,7 +18,6 @@ namespace DeltaSkyIX.Networking
         [SerializeField] private Camera camera;
         [SerializeField] private GameObject[] matchObjects;
         [SerializeField] private FirstPersonMovement movement;
-        [SerializeField] private PlayerHealth pHealth;
         public UnityEvent onMatchStarted = new UnityEvent();
 
         private Lobby lobby;
@@ -107,7 +107,7 @@ namespace DeltaSkyIX.Networking
             DeltaSkyIXPlayerNet player = DeltaSkyIxNetworkManager.Instance.LocalPlayer;
             FindObjectOfType<Lobby>().OnMatchStarted();
             player.movement.Enable();
-            player.GetComponent<Camera>().enabled = true;
+            player.GetComponentInChildren<Camera>().enabled = true;
             player.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
             player.GetComponent<NetworkRigidbody>().enabled = true;
         }

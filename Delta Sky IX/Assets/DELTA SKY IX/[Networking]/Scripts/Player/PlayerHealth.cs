@@ -17,6 +17,8 @@ public class PlayerHealth : MonoBehaviour
     
     // Start is called before the first frame update
     void Start() {
+        rb = GetComponent<Rigidbody>();
+        networkRb = GetComponent<NetworkRigidbody>();
         currentHealth = 100f;
         maximumHealth = 100f;
     }

@@ -1149,6 +1149,7 @@ MonoBehaviour:
   rightTeamHolder: {fileID: 8811653040185297271}
   readyUpButton: {fileID: 8811653042241288989}
   startGameButton: {fileID: 8811653041596006810}
+  tempPlane: {fileID: 0}
 --- !u!1 &8811653041500103826
 GameObject:
   m_ObjectHideFlags: 0
