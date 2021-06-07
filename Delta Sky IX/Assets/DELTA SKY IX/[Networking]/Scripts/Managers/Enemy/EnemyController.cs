@@ -1,4 +1,5 @@
 using DeltaSky.Controllers.UI;
+using DeltaSkyIX.Networking;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.AI;
@@ -26,6 +27,7 @@ namespace DeltaSky.Controllers
 
         // Start is called before the first frame update
         void Start() {
+            _target = FindObjectOfType<PlayerHealth>();
             agent = GetComponent<NavMeshAgent>();
             currentHealth = 100f;
             maximumHealth = 100f;

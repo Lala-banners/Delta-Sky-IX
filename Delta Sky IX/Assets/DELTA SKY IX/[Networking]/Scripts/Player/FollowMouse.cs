@@ -12,9 +12,10 @@ public class FollowMouse : MonoBehaviour
     [Tooltip("Rotation on Y axis")] private float yaw;
     [Tooltip("Rotation on X axis")] private float pitch;
 
-    public Image crosshairs;
+    private Image crosshairs;
     
     private void Start() {
+        crosshairs = FindObjectOfType<Image>();
         horizontalSpeed = 2f;
         verticalSpeed = 2f;
     }
