@@ -16,7 +16,8 @@ namespace DeltaSkyIX.Networking
         [SerializeField] private new CameraMotor camera;
         //[SerializeField] private PlayerMotor playerMotor;
         [SerializeField] private GameObject[] matchObjects;
-
+        [SerializeField] private FirstPersonMovement movement;
+        [SerializeField] private PlayerHealth pHealth;
         public UnityEvent onMatchStarted = new UnityEvent();
 
         private Lobby lobby;
@@ -105,8 +106,10 @@ namespace DeltaSkyIX.Networking
             
             DeltaSkyIXPlayerNet player = DeltaSkyIxNetworkManager.Instance.LocalPlayer;
             FindObjectOfType<Lobby>().OnMatchStarted();
-            //player.playerMotor.Enable();
             player.camera.Enable();
+            player.movement.Enable();
+            pHealth.rb.constraints = RigidbodyConstraints.None;
+            pHealth.networkRb.enabled = true;
         }
 
         #endregion
@@ -174,7 +177,7 @@ namespace DeltaSkyIX.Networking
         public override void OnStartLocalPlayer()
         {
             // Load the scene with the lobby
-            LevelManager.LoadLevel("Gameplay");
+            //LevelManager.LoadLevel("Gameplay");
         }
 
         // Runs when the client is disconnected from the server

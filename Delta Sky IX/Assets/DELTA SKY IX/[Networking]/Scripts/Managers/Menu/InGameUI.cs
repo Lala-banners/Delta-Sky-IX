@@ -42,7 +42,7 @@ namespace DeltaSky.Controllers.UI
         }
 
         public void GameOver() {
-            Cursor.visible = true;
+            //Cursor.visible = true;
             playerHealth.SetActive(false);
             gameOverPanel.SetActive(true);
             miniMapUI.SetActive(false);
@@ -58,7 +58,7 @@ namespace DeltaSky.Controllers.UI
 
         public void WinGame()
         {
-            Cursor.visible = true;
+            //Cursor.visible = true;
             playerHealth.SetActive(false);
             winPanel.SetActive(true);
             miniMapUI.SetActive(false);
@@ -71,7 +71,7 @@ namespace DeltaSky.Controllers.UI
         }
 
         public void StartGame() {
-            Cursor.visible = false;
+            //Cursor.visible = false;
             miniMapUI.SetActive(true);
             playerHealth.SetActive(true);
         }

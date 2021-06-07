@@ -1,18 +1,22 @@
 using DeltaSky.Controllers.UI;
+using Mirror.Experimental;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    [Header("Player Health")] 
+    [Header("Player Health")]
     public Image healthRing;
     public float smoothSpeed;
     [SerializeField] private float currentHealth = 100f;
     private float maximumHealth = 100f;
+
+    [Header("Player Stats")]
+    public Rigidbody rb;
+    public NetworkRigidbody networkRb;
     
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
         currentHealth = 100f;
         maximumHealth = 100f;
     }

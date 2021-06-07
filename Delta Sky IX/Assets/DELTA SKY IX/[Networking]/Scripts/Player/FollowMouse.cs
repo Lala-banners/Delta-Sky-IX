@@ -15,14 +15,14 @@ public class FollowMouse : MonoBehaviour
     private Image crosshairs;
     
     private void Start() {
-        crosshairs = FindObjectOfType<Image>();
+        // crosshairs = FindObjectOfType<Image>();
         horizontalSpeed = 2f;
         verticalSpeed = 2f;
     }
 
     // Update is called once per frame
     void Update() {
-        crosshairs.transform.position = Input.mousePosition;
+        // crosshairs.transform.position = Input.mousePosition;
         FollowMouseInput();
     }
     

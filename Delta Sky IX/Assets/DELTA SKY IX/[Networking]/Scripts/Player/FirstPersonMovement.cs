@@ -25,14 +25,28 @@ public class FirstPersonMovement : MonoBehaviour
     }
     public KeyInputs keyInputs;
 
+    private bool setup = false;
+
+    public void Enable() 
+    {
+        setup = true;
+        controller.enabled = true;
+    }
+
     private void FixedUpdate()
     {
+        if (!setup)
+            return;
+        
         isGrounded = IsGrounded();
     }
 
     // Update is called once per frame
-    void Update()
+    void Update() 
     {
+        if (!setup)
+            return;
+                
         Direction();
         Jump();
         Movement();

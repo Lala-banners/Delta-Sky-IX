@@ -9773,7 +9773,7 @@ MonoBehaviour:
   serverBatching: 0
   serverBatchInterval: 0
   offlineScene: Assets/DELTA SKY IX/[Networking]/Scenes/Offline.unity
-  onlineScene: Assets/DELTA SKY IX/[Networking]/Scenes/Gameplay.unity
+  onlineScene: Assets/DELTA SKY IX/[Networking]/Scenes/Online.unity
   transport: {fileID: 6677164801898726740}
   networkAddress: localhost
   maxConnections: 100
