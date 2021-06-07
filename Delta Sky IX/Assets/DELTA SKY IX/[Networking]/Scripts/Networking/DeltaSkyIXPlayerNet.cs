@@ -15,9 +15,11 @@ namespace DeltaSkyIX.Networking
         [SyncVar] public string username = "";
         [SyncVar] public bool ready = false;
 
-        [SerializeField] private CameraMotor camera;
+        [SerializeField] private Camera camera;
         [SerializeField] private GameObject[] matchObjects;
         [SerializeField] private FirstPersonMovement movement;
+        [SerializeField] private FollowMouse mouseRotation;
+        [SerializeField] private Gun shooting;
         public UnityEvent onMatchStarted = new UnityEvent();
 
         private Lobby lobby;
@@ -107,9 +109,11 @@ namespace DeltaSkyIX.Networking
             DeltaSkyIXPlayerNet player = DeltaSkyIxNetworkManager.Instance.LocalPlayer;
             FindObjectOfType<Lobby>().OnMatchStarted();
             player.movement.Enable();
-            player.camera.enabled = true;
+            player.GetComponentInChildren<Camera>().enabled = true;
             player.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
             player.GetComponent<NetworkRigidbody>().enabled = true;
+            player.mouseRotation.enabled = true;
+            player.shooting.enabled = true;
         }
 
         #endregion

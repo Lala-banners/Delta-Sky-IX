@@ -567,13 +567,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1794090681}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6772ab23e77e7a54aad85cecfe27f9fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 15
-  fireRate: 0.75
+  fireRate: 0.25
   weaponRange: 100
   hitForce: 50
   firePoint: {fileID: 1887996108}
@@ -1069,7 +1069,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6373781395931579551}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf8ea6494535254aaf8c84aa1bde369, type: 3}
   m_Name: 
@@ -1223,6 +1223,8 @@ MonoBehaviour:
   camera: {fileID: 0}
   matchObjects: []
   movement: {fileID: 6373781396220336257}
+  mouseRotation: {fileID: 5891786669410719747}
+  shooting: {fileID: 5111591447430056777}
   onMatchStarted:
     m_PersistentCalls:
       m_Calls: []
