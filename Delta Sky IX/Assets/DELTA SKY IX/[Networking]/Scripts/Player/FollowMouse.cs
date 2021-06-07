@@ -15,7 +15,6 @@ public class FollowMouse : MonoBehaviour
     private Image crosshairs;
     
     private void Start() {
-        // crosshairs = FindObjectOfType<Image>();
         horizontalSpeed = 2f;
         verticalSpeed = 2f;
     }

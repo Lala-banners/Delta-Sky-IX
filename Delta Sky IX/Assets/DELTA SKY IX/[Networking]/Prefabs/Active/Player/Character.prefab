@@ -1240,7 +1240,6 @@ MonoBehaviour:
   camera: {fileID: 6373781395931579538}
   matchObjects: []
   movement: {fileID: 6373781396220336257}
-  pHealth: {fileID: 133251168}
   onMatchStarted:
     m_PersistentCalls:
       m_Calls: []
@@ -1280,7 +1279,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!1 &7293526893831088311
 GameObject:

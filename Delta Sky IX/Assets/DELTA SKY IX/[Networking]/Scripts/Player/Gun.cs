@@ -43,7 +43,6 @@ public class Gun : MonoBehaviour
         
         if (Physics.Raycast(ray, out hit, weaponRange))
         {
-            //Debug.Log(hit.collider.name);
             EnemyController enemy = hit.transform.GetComponent<EnemyController>();
                 
             if(enemy != null)

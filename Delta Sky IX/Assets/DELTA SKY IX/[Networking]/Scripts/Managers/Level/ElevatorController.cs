@@ -17,13 +17,18 @@ namespace DeltaSky.Controllers
 
         private ElevatorStates _elevator;
 
-        public Transform topPosition, bottomPosition;
+        [SerializeField] private Transform topPosition;
+        [SerializeField] private Transform bottomPosition;
         public float smoothTime;
         private Vector3 newPosition;
+        private bool hasRider;
         
         // Start is called before the first frame update
         void Start() {
-            player = GetComponent<DeltaSkyIXPlayerNet>();
+            hasRider = false;
+            topPosition = GetComponentInChildren<Transform>();
+            bottomPosition = GetComponentInChildren<Transform>();
+            player = FindObjectOfType<DeltaSkyIXPlayerNet>();
             _elevator = ElevatorStates.PauseState;
         }
 
@@ -34,40 +39,28 @@ namespace DeltaSky.Controllers
         }
 
         public void UseElevator() {
-            if (Input.GetKeyDown(KeyCode.U))
+            if (Input.GetKeyDown(KeyCode.U) && player != null)
             {
-                _elevator = ElevatorStates.goUp;
+                hasRider = true;
                 player.transform.parent = gameObject.transform;
+                _elevator = ElevatorStates.goUp;
             }
 
-            if (Input.GetKeyDown(KeyCode.D))
+            if (Input.GetKeyDown(KeyCode.F) && player != null)
             {
-                _elevator = ElevatorStates.goDown;
+                hasRider = true;
                 player.transform.parent = gameObject.transform;
+                _elevator = ElevatorStates.goDown;
             }
 
             ElevatorSM();
-        }
-
-        public void OnTriggerEnter(Collider col) {
-            
-
-            /* if (col.gameObject.TryGetComponent<Temp>(out Temp temp))
-             {
-                 if (temp != null)
-                 {
-                     Debug.Log("Elevator go up");
-                     col.transform.parent = gameObject.transform;
-                     hasRider = true;
-                 }
-             }*/
         }
 
         private void OnTriggerExit(Collider col) {
             if (col.gameObject.CompareTag("Player"))
             {
                 col.transform.parent = null;
-                //hasRider = false;
+                hasRider = false;
             }
         }
 
@@ -79,7 +72,7 @@ namespace DeltaSky.Controllers
                 transform.position =
                     Vector3.Lerp(transform.position, newPosition,
                         smoothTime *
-                        Time.deltaTime); //transform.Translate(newPosition.x, newPosition.y, newPosition.z);//Vector3.Lerp(transform.position, newPosition, smoothTime * Time.deltaTime);
+                        Time.deltaTime); 
             }
 
             if (_elevator.Equals(ElevatorStates.goUp))
@@ -88,11 +81,12 @@ namespace DeltaSky.Controllers
                 transform.position =
                     Vector3.Lerp(transform.position, newPosition,
                         smoothTime *
-                        Time.deltaTime); //transform.Translate(newPosition.x, newPosition.y, newPosition.z);
+                        Time.deltaTime); 
             }
 
             if (_elevator.Equals(ElevatorStates.PauseState))
             {
+                
             }
         }
     }

@@ -28,7 +28,6 @@ namespace DeltaSky.Controllers.Spawn
             {
                 xPos = Random.Range(1, 10);
                 zPos = Random.Range(1, 20);
-                //Debug.Log(xPos + ", " + zPos); SPAWNING WORKS!
 
                 //Place enemy at generated coords
                 Instantiate(alienPrefab, new Vector3(xPos + xSpacing, 0, zPos + zSpacing), Quaternion.identity);
