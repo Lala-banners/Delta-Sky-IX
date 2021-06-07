@@ -986,8 +986,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alienPrefab: {fileID: 6598823951600181728, guid: ecaf22a2d1da24f4b89a539c009b2086, type: 3}
-  xPos: 10
-  zPos: 15
+  xPos: 0
+  zPos: 0
   enemyCount: 5
 --- !u!1 &1228112740
 GameObject:

@@ -1,9 +1,10 @@
+using System;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 public class FirstPersonMovement : MonoBehaviour
 {
-     [Header("General")]
+    [Header("General")]
     [SerializeField] private CharacterController controller;
     [SerializeField] private Transform cam;
     [SerializeField] private float turnSmoothTime = 0.1f;
@@ -17,7 +18,7 @@ public class FirstPersonMovement : MonoBehaviour
     [SerializeField] public float speed = 6f;
     [SerializeField] public float jumpHeight = 1.0f;
 
-    [System.Serializable]
+    [Serializable]
     public struct KeyInputs
     {
         public float horizontal; //horizontal movement value
@@ -25,12 +26,16 @@ public class FirstPersonMovement : MonoBehaviour
     }
     public KeyInputs keyInputs;
 
-    private bool setup = false;
+    private bool setup;
 
     public void Enable() 
     {
         setup = true;
         controller.enabled = true;
+    }
+
+    private void Start() {
+        setup = false;
     }
 
     private void FixedUpdate()
@@ -50,15 +55,11 @@ public class FirstPersonMovement : MonoBehaviour
         Direction();
         Jump();
         Movement();
-
-        //Interact();
-
+        
         float oldGravity = moveDir.y;
 
         Direction();
 
-        //transform.rotation = Quaternion.Euler(0f, angle, 0f);
-        //moveDir = Quaternion.Euler(0f, targetAngle, 0f) * moveDir; //changing this to up instead of forward makes him jump only
         moveDir = Quaternion.Euler(0f, cam.eulerAngles.y, 0f) * moveDir;
 
         float angle = Mathf.Atan2(moveDir.x, moveDir.z) * Mathf.Rad2Deg;
@@ -68,12 +69,8 @@ public class FirstPersonMovement : MonoBehaviour
         moveDir.x *= speed;
         moveDir.y = oldGravity;
         moveDir.z *= speed;
-
         moveDir.y -= gravity * Time.deltaTime;
-
-
         controller.Move(moveDir * Time.deltaTime);
-
     }
 
     private void Movement()
@@ -100,8 +97,6 @@ public class FirstPersonMovement : MonoBehaviour
         float horizontal = 0; //reset movement values
         float vertical = 0;
 
-        //take key input and check if it matches any of these movement types in the dictionary
-        //if a match is found, increase that direction
         if (Input.GetKey(KeyCode.W)) //Forward
         {
             vertical++;
@@ -138,12 +133,7 @@ public class FirstPersonMovement : MonoBehaviour
 
     bool IsGrounded()
     {
-        //debug raycast
-        Debug.DrawRay(transform.position, -Vector3.up * ((controller.height * 0.5f) * 1.1f), Color.red);
-        // Bit shift the index of the layer (8) to get a bit mask
         int layerMask = 1 << 8;
-        // This would cast rays only against colliders in layer 8.
-        // But instead we want to collide against everything except layer 8. The ~ operator does this, it inverts a bitmask.
         layerMask = ~layerMask;
         RaycastHit hit;
         if (Physics.SphereCast(transform.position, controller.radius, -Vector3.up, out hit, controller.bounds.extents.y + 0.1f - controller.bounds.extents.x, layerMask))

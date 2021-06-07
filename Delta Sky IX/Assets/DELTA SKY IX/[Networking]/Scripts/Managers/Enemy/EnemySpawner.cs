@@ -31,7 +31,7 @@ namespace DeltaSky.Controllers.Spawn
 
                 //Place enemy at generated coords
                 Instantiate(alienPrefab, new Vector3(xPos + xSpacing, 0, zPos + zSpacing), Quaternion.identity);
-                yield return new WaitForSeconds(0.2f); //Ever .2 seconds an enemy will spawn
+                yield return new WaitForSeconds(0.2f); //Every .2 seconds an enemy will spawn
                 enemyCount += 1;
             }
         }
