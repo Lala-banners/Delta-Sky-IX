@@ -28,36 +28,52 @@ namespace DeltaSky.Controllers.UI
 
         [Header("Win")]
         public GameObject winPanel;
+
+        [Header("HUD")]
+        public GameObject miniMapUI;
+        public GameObject playerHealth;
         
         // Start is called before the first frame update
         void Start()
         {
+            playerHealth.SetActive(true);
             gameOverPanel.SetActive(false);
             winPanel.SetActive(false);
         }
 
-        public void GameOver()
-        {
+        public void GameOver() {
+            Cursor.visible = true;
+            playerHealth.SetActive(false);
             gameOverPanel.SetActive(true);
-            Time.timeScale = 1;
+            miniMapUI.SetActive(false);
+            Time.timeScale = 0;
         }
 
         public void Retry(int sceneIndex)
         {
             SceneManager.LoadScene(sceneIndex);
             gameOverPanel.SetActive(false);
-            Time.timeScale = 0;
+            Time.timeScale = 1;
         }
 
         public void WinGame()
         {
+            Cursor.visible = true;
+            playerHealth.SetActive(false);
             winPanel.SetActive(true);
-            Time.timeScale = 1;
+            miniMapUI.SetActive(false);
+            Time.timeScale = 0;
         }
 
         public void QuitGame()
         {
             MainUIManager.instance.QuitGame();
+        }
+
+        public void StartGame() {
+            Cursor.visible = false;
+            miniMapUI.SetActive(true);
+            playerHealth.SetActive(true);
         }
         
     }

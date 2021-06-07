@@ -15,7 +15,6 @@ namespace DeltaSkyIX.UI
         [SerializeField] private TMP_InputField gameNameText;
         [SerializeField] private TMP_InputField playerNameText;
         [SerializeField] private Button hostStartGame;
-
         [SerializeField] private DiscoveredGame gameTemplate;
         [SerializeField] private Transform foundGamesHolder;
 

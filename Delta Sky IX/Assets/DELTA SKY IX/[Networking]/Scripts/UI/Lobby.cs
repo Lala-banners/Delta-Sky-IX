@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
 using TMPro;
 using DeltaSkyIX.Networking;
 
@@ -18,7 +17,7 @@ namespace DeltaSkyIX.UI
         [SerializeField] private GameObject rightTeamHolder;
         [SerializeField] private Button readyUpButton;
         [SerializeField] private Button startGameButton;
-        [SerializeField] private Camera uiCam;
+        //[SerializeField] private Camera uiCam;
 
         // Flipping bool that determines which column the connected player will be added to
         private bool assigningToLeft = true;
@@ -27,6 +26,7 @@ namespace DeltaSkyIX.UI
 
         public void AssignPlayerToSlot(DeltaSkyIXPlayerNet _player, bool _left, int _slotId)
         {
+            Debug.Log("Assigning player to slot");
             // Get the correct slot list depending on the left param
             List<LobbyPlayerSlot> slots = _left ? leftTeamSlots : rightTeamSlots;
             // Assign the player to the relevant slot in this list
@@ -35,6 +35,7 @@ namespace DeltaSkyIX.UI
 
         public void OnPlayerConnected(DeltaSkyIXPlayerNet _player)
         {
+            Debug.Log("Player connected");
             bool assigned = false;
 
             // If the player is the localplayer, assign it
@@ -101,8 +102,8 @@ namespace DeltaSkyIX.UI
 
         public void OnMatchStarted()
         {
-            uiCam.enabled = false;
-            gameObject.SetActive(false);
+            //uiCam.enabled = false;
+            this.gameObject.SetActive(false);
         }
 
         // Update is called once per frame
