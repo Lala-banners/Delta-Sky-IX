@@ -10,7 +10,7 @@ namespace DeltaSky.Controllers
         [Header("AI NavMesh")] public NavMeshAgent agent;
         private Vector3 newPos;
         
-        private Transform _target;
+        [SerializeField] private PlayerHealth _target;
 
         [Header("Enemy AI Stats")] public float chaseRadius = 5f;
         public float attackRadius = 2f;
@@ -25,8 +25,7 @@ namespace DeltaSky.Controllers
         private float maximumHealth = 100f;
 
         // Start is called before the first frame update
-        void Start()
-        {
+        void Start() {
             agent = GetComponent<NavMeshAgent>();
             currentHealth = 100f;
             maximumHealth = 100f;
@@ -35,8 +34,8 @@ namespace DeltaSky.Controllers
         // Update is called once per frame
         void Update()
         {
-            //ChasePlayer();
-
+            ChasePlayer();
+            
             smoothSpeed = 3f * Time.deltaTime; //To smooth transition from one colour to another
             Health();
             UpdateHealthRing();
@@ -48,23 +47,15 @@ namespace DeltaSky.Controllers
         }
 
         #region Related to Player
-
-        
-        
         public void ChasePlayer()
         {
-            distance = Vector3.Distance(transform.position, _target.position);
+            distance = Vector3.Distance(transform.position, _target.transform.position);
 
             moveSpeed = speed * Time.deltaTime;
 
             if (distance <= chaseRadius)
             {
-                transform.position = Vector3.MoveTowards(transform.position, _target.position, moveSpeed);
-            }
-
-            if (distance <= attackRadius)
-            {
-                DamagePlayer(2f);
+                transform.position = Vector3.MoveTowards(transform.position, _target.transform.position, moveSpeed);
             }
         }
 
@@ -72,13 +63,8 @@ namespace DeltaSky.Controllers
         {
             if (other.gameObject.CompareTag("Player"))
             {
-                DamagePlayer(5f);
+                _target.TakeDamage(5f);
             }
-        }
-
-        public void DamagePlayer(float damagePoints)
-        {
-            Debug.Log("Player is taking damage");
         }
 
         #endregion
@@ -100,7 +86,7 @@ namespace DeltaSky.Controllers
         {
             currentHealth -= damagePoints;
 
-            if (currentHealth.Equals(0))
+            if (currentHealth <= 0)
             {
                 Die();
             }
@@ -111,7 +97,7 @@ namespace DeltaSky.Controllers
         /// </summary>
         public void FleeFromPlayer()
         {
-            Vector3 directionToPlayer = transform.position - _target.position;
+            Vector3 directionToPlayer = transform.position - _target.transform.position;
             newPos = transform.position + directionToPlayer;
             agent.SetDestination(newPos);
         }

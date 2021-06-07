@@ -20,6 +20,7 @@
     <setting file="file://$PROJECT_DIR$/../../../Cert IV GIT/UI-GIT/Assets/Scripts/Player/PlayerData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/FirstPersonMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -46,15 +47,17 @@
       <option value="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/FirstPersonAIO/FirstPersonAIO.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/FirstPersonMovement.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIxNetworkDiscovery.cs" />
-      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Managers/Menu/InGameUI.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/UI/DiscoveredGame.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIxNetworkManager.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/UI/Lobby.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/UI/ConnectionMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIXPlayerNet.cs" />
-      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Managers/Enemy/EnemyController.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/FollowMouse.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/Gun.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/Health.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Managers/Enemy/EnemyController.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/PlayerHealth.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Managers/Menu/InGameUI.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sju7pSnoYomEvPioJ2236zifnF" />
@@ -123,7 +126,7 @@
       <workItem from="1622007507646" duration="5890000" />
       <workItem from="1622595499611" duration="1660000" />
       <workItem from="1622597216035" duration="9208000" />
-      <workItem from="1623026541270" duration="5091000" />
+      <workItem from="1623026541270" duration="7816000" />
     </task>
     <servers />
   </component>
