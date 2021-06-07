@@ -70,7 +70,7 @@ namespace DeltaSkyIX.UI
             {
                 LobbyPlayerSlot slot = leftTeamSlots[i];
                 if(slot.IsTaken)
-                    localPlayer.AssignPlayerToSlot(slot.IsLeft, i, slot.Player.playerId);
+                    localPlayer.AssignPlayerToSlot(slot.IsLeft, i, slot.Player.playerId); //
             }
 
             for (int i = 0; i < rightTeamSlots.Count; i++)

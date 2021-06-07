@@ -10,6 +10,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../../Cert IV GIT/UI-GIT/Assets/Scripts/Player/PlayerStats.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/Gun.cs" root0="FORCE_HIGHLIGHTING" />
@@ -18,6 +26,7 @@
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Culling/IClipRegion.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Runtime/MaskClipping/RectMask2DClipping.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Editor/Canvas/AssertionFailureOnOutputVertexCount.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82EC470C-9131-4935-8AD0-C83AD628910C/f1/541695f9/Cursor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Cert IV GIT/UI-GIT/Assets/Scripts/Player/ThirdPersonMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/I/RCBoid-Sim/RC_Boid-Sim-Base-Project/Assets/RC-Boid-Sim/Code/BaseBoidLogic/Managers/InteractManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -46,23 +55,23 @@
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/MovePlayer.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/InputController.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Managers/Enemy/NetworkAlienSpawner.cs" />
-      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Managers/Level/ElevatorController.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/PlayerMotor.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/PlayerInput.cs" />
       <option value="$PROJECT_DIR$/Assets/FirstPersion AIO Pack/FirstPersonAIO/FirstPersonAIO.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIxNetworkDiscovery.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/UI/DiscoveredGame.cs" />
-      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIxNetworkManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/UI/Lobby.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/UI/ConnectionMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/Gun.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/Health.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Managers/Enemy/EnemyController.cs" />
-      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Managers/Menu/InGameUI.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/FollowMouse.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/FirstPersonMovement.cs" />
-      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIXPlayerNet.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/PlayerHealth.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIxNetworkManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Managers/Menu/InGameUI.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/UI/Lobby.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Managers/Level/ElevatorController.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIXPlayerNet.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sju7pSnoYomEvPioJ2236zifnF" />
@@ -131,7 +140,7 @@
       <workItem from="1622007507646" duration="5890000" />
       <workItem from="1622595499611" duration="1660000" />
       <workItem from="1622597216035" duration="9208000" />
-      <workItem from="1623026541270" duration="11459000" />
+      <workItem from="1623026541270" duration="14648000" />
     </task>
     <servers />
   </component>

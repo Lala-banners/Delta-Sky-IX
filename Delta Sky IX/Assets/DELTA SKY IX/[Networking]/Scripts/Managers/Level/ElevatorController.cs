@@ -1,11 +1,12 @@
 
+using DeltaSkyIX.Networking;
 using UnityEngine;
 
 namespace DeltaSky.Controllers
 {
     public class ElevatorController : MonoBehaviour
     {
-        public GameObject player;
+        private DeltaSkyIXPlayerNet player;
         
         private enum ElevatorStates
         {
@@ -22,6 +23,7 @@ namespace DeltaSky.Controllers
         
         // Start is called before the first frame update
         void Start() {
+            player = GetComponent<DeltaSkyIXPlayerNet>();
             _elevator = ElevatorStates.PauseState;
         }
 
