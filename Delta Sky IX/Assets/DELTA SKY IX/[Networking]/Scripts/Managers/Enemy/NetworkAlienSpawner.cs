@@ -14,7 +14,7 @@ namespace DeltaSky.Networking.Enemy
         }
         
         /// <summary>
-        /// This is used for Networking the enemy Spawner (later)
+        /// This is used for Networking the enemy Spawner
         /// </summary>
         [Command]
         public void CmdSpawnObj() {

@@ -12,12 +12,26 @@ namespace DeltaSkyIX.UI
         private List<LobbyPlayerSlot> leftTeamSlots = new List<LobbyPlayerSlot>();
         private List<LobbyPlayerSlot> rightTeamSlots = new List<LobbyPlayerSlot>();
 
-        [SerializeField] private int requiredPlayerCount = 2;
+        [Header("Lobby")] 
+        [SerializeField] private GameObject lobbyMenu;
+        [SerializeField] private int requiredPlayerCount;
         [SerializeField] private GameObject leftTeamHolder;
         [SerializeField] private GameObject rightTeamHolder;
+        [SerializeField] private GameObject tempPlane;
+        
+        [Header("Lobby Buttons")]
         [SerializeField] private Button readyUpButton;
         [SerializeField] private Button startGameButton;
-        [SerializeField] private GameObject tempPlane;
+        
+        [Space]
+        
+        [Header("Player Match Settings")]
+        [SerializeField] private GameObject matchSettingsMenu;
+        [SerializeField] private Button goToMatchSettings;
+        [SerializeField] private Button returnButton;
+        [SerializeField] private Button saveGameMode;
+        [SerializeField] private Toggle pvpToggle;
+        [SerializeField] private Toggle teamToggle;
 
         // Flipping bool that determines which column the connected player will be added to
         private bool assigningToLeft = true;
@@ -70,7 +84,7 @@ namespace DeltaSkyIX.UI
             {
                 LobbyPlayerSlot slot = leftTeamSlots[i];
                 if(slot.IsTaken)
-                    localPlayer.AssignPlayerToSlot(slot.IsLeft, i, slot.Player.playerId); //
+                    localPlayer.AssignPlayerToSlot(slot.IsLeft, i, slot.Player.playerId); 
             }
 
             for (int i = 0; i < rightTeamSlots.Count; i++)
@@ -98,8 +112,55 @@ namespace DeltaSkyIX.UI
             });
 
             startGameButton.onClick.AddListener(() => localPlayer.StartMatch());
+            
+            //Set Lobby menu to inactive when click on match settings
+            goToMatchSettings.onClick.AddListener(() => 
+            {
+                lobbyMenu.SetActive(false);
+                matchSettingsMenu.SetActive(true);
+            });
+
+            //Return button goes back to lobby menu
+            returnButton.onClick.AddListener(() => 
+            {
+                lobbyMenu.SetActive(true);
+                matchSettingsMenu.SetActive(false);
+            });
+
+            //Get the Toggle components
+            pvpToggle.GetComponent<Toggle>();
+            teamToggle.GetComponent<Toggle>();
+            
+            //Toggles between PvP and Teams
+            pvpToggle.onValueChanged.AddListener(delegate {
+                if (pvpToggle.isOn)
+                {
+                    GameModePvP();
+                }
+            });
+            
+            teamToggle.onValueChanged.AddListener(delegate {
+                if (teamToggle.isOn)
+                {
+                    GameModeTeam();
+                }
+            });
+            
+            //Save button saves the choices
+            saveGameMode.onClick.AddListener(() => 
+            {
+                //Save preferences
+            });
+        }
+        
+        public void GameModePvP() {
+            Debug.Log("PvP Mode Active");
         }
 
+        public void GameModeTeam() {
+            Debug.Log("Team V Team Mode Active");
+        }
+        
         public void OnMatchStarted()
         {
             this.gameObject.SetActive(false);
