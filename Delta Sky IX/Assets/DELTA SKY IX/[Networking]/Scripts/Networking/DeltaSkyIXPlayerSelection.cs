@@ -34,6 +34,23 @@ namespace DeltaSkyIX.Networking
             characterSelectDisplay.SetActive(true);
         }
 
+        /// <summary>
+        /// This method will manage deactivating the UI and calling the Command Spawn Player function
+        /// </summary>
+        public void SelectCharacter() {
+            CmdSelect(currentCharacterIndex);
+            characterSelectDisplay.SetActive(false);
+        }
+
+        /// <summary>
+        /// This will spawn the chosen character and spawn into the game.
+        /// </summary>
+        [Command]
+        public void CmdSelect(int characterIndex, NetworkConnectionToClient sender = null) {
+            GameObject selectedCharacter = Instantiate(characters[characterIndex].GameplayCharacterPrefab);
+            NetworkServer.Spawn(selectedCharacter, sender);
+        }
+
         public void Right() {
             characterInstances[currentCharacterIndex].SetActive(false);
             

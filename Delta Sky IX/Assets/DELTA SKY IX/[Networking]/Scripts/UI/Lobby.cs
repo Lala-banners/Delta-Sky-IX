@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using DeltaSkyIX.Networking;
+using UnityEngine.SceneManagement;
 
 namespace DeltaSkyIX.UI
 {
@@ -157,6 +158,8 @@ namespace DeltaSkyIX.UI
             saveGameMode.onClick.AddListener(() => 
             {
                 //Save preferences
+                selection.SelectCharacter();
+                SceneManager.LoadScene("Gameplay");
             });
             
             selectCharacter.onClick.AddListener(() => 
