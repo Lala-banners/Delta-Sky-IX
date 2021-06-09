@@ -33,8 +33,8 @@
     <setting file="file://$USER_HOME$/Desktop/I/RCBoid-Sim/RC_Boid-Sim-Base-Project/Assets/RC-Boid-Sim/Code/BaseBoidLogic/Managers/InteractManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.2.2/Runtime/XR/XRSystem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Cert IV GIT/UI-GIT/Assets/Scripts/Player/PlayerData.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/FirstPersonMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/Character.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.5/Editor/State/WindowState.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -73,6 +73,7 @@
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Managers/Enemy/EnemySpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIXPlayerNet.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Managers/Enemy/NetworkAlienSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/Character.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIXPlayerSelection.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/UI/Lobby.cs" />
     </changedPaths>
@@ -144,7 +145,7 @@
       <workItem from="1622595499611" duration="1660000" />
       <workItem from="1622597216035" duration="9208000" />
       <workItem from="1623026541270" duration="18542000" />
-      <workItem from="1623197831908" duration="8087000" />
+      <workItem from="1623197831908" duration="14026000" />
     </task>
     <servers />
   </component>

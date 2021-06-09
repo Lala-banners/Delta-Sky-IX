@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 482579e02fa81cc479c3be7b23961414, type: 3}
+  m_Name: Blue
+  m_EditorClassIdentifier: 
+  characterName: Soul
+  characterPreviewPrefab: {fileID: 9131542416983052591, guid: e1e1297e6e874bd46ab3cf0178195c17, type: 3}
+  gameplayCharacterPrefab: {fileID: 6373781396220336259, guid: 48875fa3df2874d409a51f2ec6c2b266, type: 3}
