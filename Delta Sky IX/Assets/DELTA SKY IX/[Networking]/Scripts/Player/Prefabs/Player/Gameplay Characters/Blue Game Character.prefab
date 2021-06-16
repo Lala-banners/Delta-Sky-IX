@@ -1156,7 +1156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 6116567642588101402}
-  cam: {fileID: 0}
+  cam: {fileID: 4158909960859007689}
   turnSmoothTime: 5
   gravity: -9.81
   playerVelocity: {x: 0, y: 0, z: 0}
@@ -5141,9 +5141,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: faf603745d54b18449fb0bec09931928, type: 3}
---- !u!4 &7545644326499924674 stripped
+--- !u!4 &4158909960859007689 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 2932609287353849458, guid: faf603745d54b18449fb0bec09931928, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8769161041923888761, guid: faf603745d54b18449fb0bec09931928, type: 3}
   m_PrefabInstance: {fileID: 4613158344621092016}
   m_PrefabAsset: {fileID: 0}
 --- !u!20 &4158909960859007688 stripped
@@ -5184,3 +5184,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &7545644326499924674 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2932609287353849458, guid: faf603745d54b18449fb0bec09931928, type: 3}
+  m_PrefabInstance: {fileID: 4613158344621092016}
+  m_PrefabAsset: {fileID: 0}
