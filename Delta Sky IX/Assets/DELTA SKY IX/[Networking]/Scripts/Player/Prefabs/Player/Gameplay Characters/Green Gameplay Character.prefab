@@ -3450,8 +3450,8 @@ MonoBehaviour:
   turnSmoothTime: 0.1
   gravity: -9.81
   playerVelocity: {x: 0, y: 0, z: 0}
-  speed: 10
-  jumpHeight: 5
+  speed: 20
+  jumpHeight: 15
   keyInputs:
     horizontal: 0
     vertical: 0
@@ -5069,15 +5069,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2433749098969445463, guid: faf603745d54b18449fb0bec09931928, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.086
+      value: 0.0689
       objectReference: {fileID: 0}
     - target: {fileID: 2433749098969445463, guid: faf603745d54b18449fb0bec09931928, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.527
+      value: -0.081
       objectReference: {fileID: 0}
     - target: {fileID: 2433749098969445463, guid: faf603745d54b18449fb0bec09931928, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.236
+      value: 0.0559
       objectReference: {fileID: 0}
     - target: {fileID: 2932609287353849458, guid: faf603745d54b18449fb0bec09931928, type: 3}
       propertyPath: m_RootOrder
@@ -5149,11 +5149,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8769161041923888761, guid: faf603745d54b18449fb0bec09931928, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.227
+      value: -0.02
       objectReference: {fileID: 0}
     - target: {fileID: 8769161041923888761, guid: faf603745d54b18449fb0bec09931928, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.049
+      value: -0.245
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: faf603745d54b18449fb0bec09931928, type: 3}

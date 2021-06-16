@@ -1175,8 +1175,8 @@ MonoBehaviour:
   turnSmoothTime: 0.1
   gravity: -9.81
   playerVelocity: {x: 0, y: 0, z: 0}
-  speed: 6
-  jumpHeight: 1
+  speed: 20
+  jumpHeight: 15
   keyInputs:
     horizontal: 0
     vertical: 0
