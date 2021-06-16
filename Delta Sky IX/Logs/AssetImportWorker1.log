@@ -3173,3 +3173,416 @@ Received Import Request.
 Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab using Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca14502d4d2349d609cbd263ffd6f417') in 0.258397 seconds
   Import took 0.267826 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 326.795110 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Black Player Model 1.prefab
+  artifactKey: Guid(cd146a8251902ac429627c91f7dfb47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Black Player Model 1.prefab using Guid(cd146a8251902ac429627c91f7dfb47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465fc10b3055c3e5e479ea8113c459f5') in 0.046267 seconds
+  Import took 0.053028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.414656 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Room Player.prefab
+  artifactKey: Guid(15cb9a013bc0cb145878e01d347094fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Room Player.prefab using Guid(15cb9a013bc0cb145878e01d347094fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa5d7b21ce756c03d74dd8c9cfb6e8b') in 0.050543 seconds
+  Import took 0.058357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009407 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Room Player.prefab
+  artifactKey: Guid(15cb9a013bc0cb145878e01d347094fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Room Player.prefab using Guid(15cb9a013bc0cb145878e01d347094fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa5d7b21ce756c03d74dd8c9cfb6e8b') in 0.042602 seconds
+  Import took 0.049814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 220.090818 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Black.asset
+  artifactKey: Guid(171f2e4322873d94c8e25de708752a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Black.asset using Guid(171f2e4322873d94c8e25de708752a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Black Player Preview' must be marked as Legacy.
+
+ -> (artifact id: '589e7dfb2102c666c76d4d74a05ed98c') in 0.021826 seconds
+  Import took 0.029840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.701345 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab
+  artifactKey: Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab using Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a2a681785076315cf46b0839fba53d') in 0.048324 seconds
+  Import took 0.054477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.120769 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab
+  artifactKey: Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab using Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4f66084242c20d656d8e51821a35cf9') in 0.040343 seconds
+  Import took 0.046529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.579011 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab
+  artifactKey: Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab using Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b578197eb796603e1b638697d2f33a7a') in 0.043060 seconds
+  Import took 0.049519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.573621 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bccff29ac86c01c65a9d2bc7fb7c8e') in 0.042071 seconds
+  Import took 0.051202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.502607 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9ea6383d733ef15d5e81e49d0472c8') in 0.041172 seconds
+  Import took 0.047813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.785510 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f199015fdf662f91042aee826be35c92') in 0.040573 seconds
+  Import took 0.046780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.736244 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab
+  artifactKey: Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab using Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe49f4d5bcfe7967b5f1442046df46d') in 0.047959 seconds
+  Import took 0.055684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.180959 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Green.asset
+  artifactKey: Guid(8088c175345314346962ad814f595e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Green.asset using Guid(8088c175345314346962ad814f595e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Green Player Preview 1' must be marked as Legacy.
+
+ -> (artifact id: '636888bba39bcb368a1315dd8f7490f1') in 0.014747 seconds
+  Import took 0.020372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.195672 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models/Green Player Preview 1.prefab
+  artifactKey: Guid(4b6e21100cec8ab478ba7954bce66475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models/Green Player Preview 1.prefab using Guid(4b6e21100cec8ab478ba7954bce66475) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Green Player Preview 1' must be marked as Legacy.
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Green Player Preview 1(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Green Player Preview 1(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: 'e14080097b328934091a67db91b36c3b') in 0.047023 seconds
+  Import took 0.054246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.607952 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models/Red Player Preview.prefab
+  artifactKey: Guid(68535f36ab183a3438b9c5d522122b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models/Red Player Preview.prefab using Guid(68535f36ab183a3438b9c5d522122b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Red Player Preview' must be marked as Legacy.
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Red Player Preview(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Red Player Preview(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '416b85c3d9fa5f5fdf914e64c4654d8d') in 0.047070 seconds
+  Import took 0.053289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.918155 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models/Red Player Preview.prefab
+  artifactKey: Guid(68535f36ab183a3438b9c5d522122b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models/Red Player Preview.prefab using Guid(68535f36ab183a3438b9c5d522122b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Red Player Preview' must be marked as Legacy.
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Red Player Preview(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Red Player Preview(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '2ea3c54167ffc172145a15f08ed7c9e0') in 0.041036 seconds
+  Import took 0.046867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.770851 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models/Green Player Preview 1.prefab
+  artifactKey: Guid(4b6e21100cec8ab478ba7954bce66475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models/Green Player Preview 1.prefab using Guid(4b6e21100cec8ab478ba7954bce66475) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Green Player Preview 1' must be marked as Legacy.
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Green Player Preview 1(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Green Player Preview 1(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '0bdb94101faa31f975129e373a72abfa') in 0.037789 seconds
+  Import took 0.043801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.367425 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models/Blue Player Preview.prefab
+  artifactKey: Guid(bff5793f81f3f2d479f278d76e84e60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models/Blue Player Preview.prefab using Guid(bff5793f81f3f2d479f278d76e84e60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Blue Player Preview' must be marked as Legacy.
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Blue Player Preview(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Blue Player Preview(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '5530fe43fb5ffbd44f3dbf2eee722cd3') in 0.043857 seconds
+  Import took 0.051154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.625009 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models/Blue Player Preview.prefab
+  artifactKey: Guid(bff5793f81f3f2d479f278d76e84e60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models/Blue Player Preview.prefab using Guid(bff5793f81f3f2d479f278d76e84e60a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Blue Player Preview' must be marked as Legacy.
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Blue Player Preview(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Blue Player Preview(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '47c428fb8cfce244fa5031353e27eca3') in 0.038777 seconds
+  Import took 0.044408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.789421 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models/Black Player Preview.prefab
+  artifactKey: Guid(9dc1d731ee684d842a7787f4c3bb9409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models/Black Player Preview.prefab using Guid(9dc1d731ee684d842a7787f4c3bb9409) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Black Player Preview' must be marked as Legacy.
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Black Player Preview(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Black Player Preview(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '98b3b0bfc2e434c6baf10dbc583c1906') in 0.040487 seconds
+  Import took 0.049044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.035395 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Red.asset
+  artifactKey: Guid(08e7ec550335dcf4e8fd010f42ae472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Red.asset using Guid(08e7ec550335dcf4e8fd010f42ae472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Red Player Preview' must be marked as Legacy.
+
+ -> (artifact id: '045e4b19a710072ca5d96e1f2aa1cf60') in 0.014195 seconds
+  Import took 0.020777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002042 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Red.asset
+  artifactKey: Guid(08e7ec550335dcf4e8fd010f42ae472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Red.asset using Guid(08e7ec550335dcf4e8fd010f42ae472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Red Player Preview' must be marked as Legacy.
+
+ -> (artifact id: '045e4b19a710072ca5d96e1f2aa1cf60') in 0.015720 seconds
+  Import took 0.021190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.514219 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/Gameplay.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Gameplay.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77847f2e8da24d27d33532ecf238d10c') in 0.008274 seconds
+  Import took 0.012763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000629 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/Gameplay.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Gameplay.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77847f2e8da24d27d33532ecf238d10c') in 0.004113 seconds
+  Import took 0.009449 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006300 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.040 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.1 MB.
+System memory in use after: 145.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3532.
+Total: 3.551500 ms (FindLiveObjects: 0.506900 ms CreateObjectMapping: 0.297300 ms MarkObjects: 2.622200 ms  DeleteObjects: 0.124200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.703967 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/Offline.unity
+  artifactKey: Guid(56741cc9b1d6a904d8822b8c7f795a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Offline.unity using Guid(56741cc9b1d6a904d8822b8c7f795a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c87f3e358337895fff4c65bd2a37c2') in 0.020200 seconds
+  Import took 0.027532 seconds .
+
