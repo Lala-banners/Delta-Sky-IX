@@ -360,3 +360,55 @@ System memory in use after: 120.0 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3244.
 Total: 2.928200 ms (FindLiveObjects: 0.428500 ms CreateObjectMapping: 0.163800 ms MarkObjects: 2.310200 ms  DeleteObjects: 0.023800 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 902.014287 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scenes/Directional Light.prefab
+  artifactKey: Guid(01b6f20e8c46a5042a606691151556b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scenes/Directional Light.prefab using Guid(01b6f20e8c46a5042a606691151556b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ce6565b3f869ae7371c7a6f8d647c2') in 0.035446 seconds
+  Import took 0.040212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.418905 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scenes/Offline.unity
+  artifactKey: Guid(56741cc9b1d6a904d8822b8c7f795a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scenes/Offline.unity using Guid(56741cc9b1d6a904d8822b8c7f795a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277397036433ed72f7d6efc3b746181b') in 0.001987 seconds
+  Import took 0.005783 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.9 MB.
+System memory in use after: 68.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3244.
+Total: 3.085700 ms (FindLiveObjects: 0.240600 ms CreateObjectMapping: 0.103400 ms MarkObjects: 2.717400 ms  DeleteObjects: 0.022700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003477 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.819 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2683 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.9 MB.
+System memory in use after: 121.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3246.
+Total: 2.744500 ms (FindLiveObjects: 0.462800 ms CreateObjectMapping: 0.172000 ms MarkObjects: 2.083900 ms  DeleteObjects: 0.024600 ms)
+
