@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Green
   m_EditorClassIdentifier: 
   characterName: Duck
-  characterPreviewPrefab: {fileID: 690227701120163303, guid: 66605dfe37ab60c40ac81e328ae7e620, type: 3}
-  gameplayCharacterPrefab: {fileID: 6373781396220336259, guid: c9e15186f41859940a27883240c9800b, type: 3}
+  characterPreviewPrefab: {fileID: 509435606765831930, guid: 4b6e21100cec8ab478ba7954bce66475, type: 3}
+  gameplayCharacterPrefab: {fileID: 690227701120163303, guid: 66605dfe37ab60c40ac81e328ae7e620, type: 3}

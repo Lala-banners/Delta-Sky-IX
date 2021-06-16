@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Blue
   m_EditorClassIdentifier: 
   characterName: Soul
-  characterPreviewPrefab: {fileID: 9131542416983052591, guid: e1e1297e6e874bd46ab3cf0178195c17, type: 3}
-  gameplayCharacterPrefab: {fileID: 6373781396220336259, guid: 48875fa3df2874d409a51f2ec6c2b266, type: 3}
+  characterPreviewPrefab: {fileID: 1496154605333306079, guid: bff5793f81f3f2d479f278d76e84e60a, type: 3}
+  gameplayCharacterPrefab: {fileID: 9131542416983052591, guid: e1e1297e6e874bd46ab3cf0178195c17, type: 3}
