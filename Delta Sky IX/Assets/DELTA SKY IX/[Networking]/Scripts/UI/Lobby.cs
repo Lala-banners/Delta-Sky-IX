@@ -158,7 +158,6 @@ namespace DeltaSkyIX.UI
         public void OnMatchStarted()
         {
             this.gameObject.SetActive(false);
-            tempPlane.SetActive(false);
         }
 
         // Update is called once per frame
