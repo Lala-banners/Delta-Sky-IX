@@ -18,19 +18,21 @@ namespace DeltaSkyIX.Networking
 
         private int currentCharacterIndex = 0;
         private List<GameObject> characterInstances = new List<GameObject>();
-        public GameObject lobbyMenu;
-        public Button goBack;
         public Button savePlayer;
+        public Button rightCharacter;
+        public Button leftCharacter;
 
         public override void OnStartClient() {
             base.OnStartClient();
-            lobbyMenu.SetActive(false);
 
-            foreach (Character character in characters)
+            if (characterPreviewParent.childCount == 0)
             {
-                GameObject characterInstance = Instantiate(character.CharacterPreviewPrefab, characterPreviewParent);
-                characterInstance.SetActive(false);
-                characterInstances.Add(characterInstance);
+                foreach (Character character in characters)
+                {
+                    GameObject characterInstance = Instantiate(character.CharacterPreviewPrefab, characterPreviewParent);
+                    characterInstance.SetActive(false);
+                    characterInstances.Add(characterInstance);
+                }
             }
             
             characterInstances[currentCharacterIndex].SetActive(true);
@@ -76,13 +78,27 @@ namespace DeltaSkyIX.Networking
         }
 
         private void Update() {
-            goBack.onClick.AddListener(() => {
-                lobbyMenu.SetActive(true);
-                gameObject.SetActive(false);
-            });
             
             savePlayer.onClick.AddListener(() => {
                 SelectCharacter();
+            });
+            
+            characterPreviewParent.RotateAround(
+                characterPreviewParent.position,
+                characterPreviewParent.up,
+                turnSpeed * Time.deltaTime);
+            
+            
+            //Left and right to cycle through the characters
+            rightCharacter.onClick.AddListener(() => 
+            {
+                Right();
+            });
+            
+            //Left and right to cycle through the characters
+            leftCharacter.onClick.AddListener(() => 
+            {
+                Left();
             });
         }
     }

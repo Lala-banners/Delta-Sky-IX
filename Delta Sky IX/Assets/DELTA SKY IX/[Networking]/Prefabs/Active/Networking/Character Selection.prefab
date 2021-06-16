@@ -855,9 +855,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b393327a23129f3458120bb39105c41e, type: 2}
   - {fileID: 11400000, guid: 8088c175345314346962ad814f595e84, type: 2}
   - {fileID: 11400000, guid: 08e7ec550335dcf4e8fd010f42ae472c, type: 2}
-  lobbyMenu: {fileID: 0}
-  goBack: {fileID: 1559562396}
   savePlayer: {fileID: 1687039042914784272}
+  rightCharacter: {fileID: 1687039043976277770}
+  leftCharacter: {fileID: 197776134}
 --- !u!1 &1687039042914784278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1069,7 +1069,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1687039043298550977
 Transform:
   m_ObjectHideFlags: 0
