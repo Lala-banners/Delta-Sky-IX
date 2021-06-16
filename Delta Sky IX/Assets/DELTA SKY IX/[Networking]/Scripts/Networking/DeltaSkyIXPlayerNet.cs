@@ -139,6 +139,9 @@ namespace DeltaSkyIX.Networking
 
         private void Awake()
         {
+            
+            Debug.Log("SCREAMS INTO VOID");
+            
             foreach(GameObject matchObject in matchObjects)
                 matchObject.SetActive(false);
         }
@@ -176,6 +179,12 @@ namespace DeltaSkyIX.Networking
         /// </summary>
         public override void OnStartClient()
         {
+            
+        }
+
+        // Runs only when the object is connected is the local player
+        public override void OnStartLocalPlayer()
+        {
             DeltaSkyIxNetworkManager.Instance.AddPlayer(this);
             var spawnablePrefabs = Resources.LoadAll<GameObject>("Gameplay Characters");
 
@@ -183,12 +192,6 @@ namespace DeltaSkyIX.Networking
             {
                 ClientScene.RegisterPrefab(prefab);
             }
-        }
-
-        // Runs only when the object is connected is the local player
-        public override void OnStartLocalPlayer()
-        {
-            
         }
 
         // Runs when the client is disconnected from the server

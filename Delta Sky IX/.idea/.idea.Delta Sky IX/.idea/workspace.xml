@@ -25,6 +25,7 @@
     <setting file="file://$PROJECT_DIR$/../../../Cert IV GIT/UI-GIT/Assets/Scripts/Player/Player.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/998F2491-CDE6-4F39-9B36-14F82C288B4F/a4/6558683a/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Culling/IClipRegion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@10.2.2/Runtime/Volume/VolumeManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Runtime/MaskClipping/RectMask2DClipping.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Tests/Editor/Canvas/AssertionFailureOnOutputVertexCount.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/82EC470C-9131-4935-8AD0-C83AD628910C/f1/541695f9/Cursor.cs" root0="SKIP_HIGHLIGHTING" />
@@ -35,6 +36,7 @@
     <setting file="file://$PROJECT_DIR$/../../../Cert IV GIT/UI-GIT/Assets/Scripts/Player/PlayerData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/FirstPersonMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/Character.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/UIBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.timeline@1.4.5/Editor/State/WindowState.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -72,10 +74,11 @@
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Managers/Enemy/EnemySpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Managers/Enemy/NetworkAlienSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/Character.cs" />
-      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIxNetworkManager.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIXPlayerSelection.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/UI/Lobby.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Managers/Level/LevelManager.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIXPlayerNet.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIxNetworkManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sju7pSnoYomEvPioJ2236zifnF" />
@@ -167,10 +170,10 @@
           <line>37</line>
           <properties documentPath="C:\Users\lalal\OneDrive - TAFE NSW\Team Games\Delta Sky IX Git\Delta Sky IX\Assets\DELTA SKY IX\[Networking]\Scripts\Networking\DeltaSkyIxNetworkManager.cs" initialLine="37" containingFunctionPresentation="property 'Players'">
             <startOffsets>
-              <option value="1027" />
+              <option value="1060" />
             </startOffsets>
             <endOffsets>
-              <option value="1064" />
+              <option value="1097" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />

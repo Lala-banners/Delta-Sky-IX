@@ -13,7 +13,12 @@ namespace DeltaSkyIX
             if(instance == null)
                 instance = this;
             else if(instance != this)
+            {
                 Destroy(gameObject);
+                return;
+            }
+            
+            DontDestroyOnLoad(gameObject);
         }
 
         public static void LoadLevel(string _level) => instance.LoadLevelInternal(_level);

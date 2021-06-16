@@ -8,14 +8,14 @@ namespace DeltaSkyIX.Networking
     public class DeltaSkyIxNetworkManager : NetworkManager
     
     {
-        public override void Start() {
-            base.Start();
-            DontDestroyOnLoad(gameObject);
-        }
-
-        public void Update() {
-            DontDestroyOnLoad(gameObject);
-        }
+        // public override void Start() {
+        //     base.Start();
+        //     DontDestroyOnLoad(gameObject);
+        // }
+        //
+        // public void Update() {
+        //     //DontDestroyOnLoad(gameObject);
+        // }
 
         /// <summary>
         /// A reference to the battlecars version of the network manager singleton.
@@ -60,7 +60,7 @@ namespace DeltaSkyIX.Networking
         /// </summary>
         public override void OnStartHost()
         {
-            DontDestroyOnLoad(gameObject);
+            //DontDestroyOnLoad(gameObject);
 
             IsHost = true;
             discovery.AdvertiseServer();

@@ -216,6 +216,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &122017900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 122017902}
+  - component: {fileID: 122017901}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &122017901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122017900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b12cf28f1d2c3d44a790b1090830560, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &122017902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 122017900}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &181743285
 GameObject:
   m_ObjectHideFlags: 0
@@ -9840,7 +9883,6 @@ GameObject:
   - component: {fileID: 6677164801898726743}
   - component: {fileID: 6677164801898726740}
   - component: {fileID: 6677164801898726741}
-  - component: {fileID: 6677164801898726738}
   m_Layer: 0
   m_Name: Network Manager
   m_TagString: Untagged
@@ -9848,18 +9890,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &6677164801898726738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6677164801898726736}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b12cf28f1d2c3d44a790b1090830560, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &6677164801898726739
 Transform:
   m_ObjectHideFlags: 0
@@ -9930,12 +9960,12 @@ MonoBehaviour:
   dontDestroyOnLoad: 1
   runInBackground: 1
   autoStartServerBuild: 1
-  showDebugMessages: 1
+  showDebugMessages: 0
   serverTickRate: 30
   serverBatching: 0
   serverBatchInterval: 0
-  offlineScene: Assets/DELTA SKY IX/[Networking]/Scenes/Offline.unity
-  onlineScene: Assets/DELTA SKY IX/[Networking]/Scenes/Online.unity
+  offlineScene: Assets/DELTA SKY IX/[Networking]/SCENES/Offline.unity
+  onlineScene: Assets/DELTA SKY IX/[Networking]/SCENES/Online.unity
   transport: {fileID: 6677164801898726740}
   networkAddress: localhost
   maxConnections: 100
