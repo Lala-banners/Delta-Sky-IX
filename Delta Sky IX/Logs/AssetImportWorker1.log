@@ -2654,3 +2654,346 @@ Received Import Request.
 Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Gameplay.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e467d16548c81091bffdacf8bae813') in 0.030079 seconds
   Import took 0.036865 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 588.463606 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Black.asset
+  artifactKey: Guid(171f2e4322873d94c8e25de708752a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Black.asset using Guid(171f2e4322873d94c8e25de708752a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3cfc6dfaf46ee169cd29619ca07b572') in 0.044970 seconds
+  Import took 0.053602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.698813 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Black Player Model.prefab
+  artifactKey: Guid(e8138a836a967ad49a8d4395dd6956ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Black Player Model.prefab using Guid(e8138a836a967ad49a8d4395dd6956ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fc9b237115a8e0e0be79d7752a1b21') in 0.212503 seconds
+  Import took 0.220441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.225098 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs
+  artifactKey: Guid(ba63b86b0605db14faad17a41d3e7d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs using Guid(ba63b86b0605db14faad17a41d3e7d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb64babaeac483da6e3f797caddcaba4') in 0.007789 seconds
+  Import took 0.013178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000692 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs
+  artifactKey: Guid(ba63b86b0605db14faad17a41d3e7d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs using Guid(ba63b86b0605db14faad17a41d3e7d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb64babaeac483da6e3f797caddcaba4') in 0.003142 seconds
+  Import took 0.007328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.657628 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Networking
+  artifactKey: Guid(462d6b525c489894aac04c2ed9d556ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Networking using Guid(462d6b525c489894aac04c2ed9d556ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e021ee1ca82e1f7e53fa699b917c43d9') in 0.009008 seconds
+  Import took 0.013666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.223298 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Networking/Character Selection.prefab
+  artifactKey: Guid(723da88c0250a18448a3509823182656) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Networking/Character Selection.prefab using Guid(723da88c0250a18448a3509823182656) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Blue Player Preview' must be marked as Legacy.
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Red Player Preview' must be marked as Legacy.
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Green Player Preview 1' must be marked as Legacy.
+
+ -> (artifact id: '5437bdb57e8daec0cddded7d3affe6bd') in 0.179862 seconds
+  Import took 0.188169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 249.635165 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Black Player Model 1.prefab
+  artifactKey: Guid(cd146a8251902ac429627c91f7dfb47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Black Player Model 1.prefab using Guid(cd146a8251902ac429627c91f7dfb47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8356e672ce9cd51bd6ee2e997a3bd4f') in 0.052163 seconds
+  Import took 0.058812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.020476 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Green Player Model.prefab
+  artifactKey: Guid(66605dfe37ab60c40ac81e328ae7e620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Green Player Model.prefab using Guid(66605dfe37ab60c40ac81e328ae7e620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a71e5b840010b60551e81c26cbe2530f') in 0.039866 seconds
+  Import took 0.045760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.632791 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models
+  artifactKey: Guid(7b82527e09cf59d49bfccd284b6c7d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models using Guid(7b82527e09cf59d49bfccd284b6c7d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49e054a3de335b016837b3ddb4ebc8f') in 0.008764 seconds
+  Import took 0.013340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.151242 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models/Black Player Preview.prefab
+  artifactKey: Guid(9dc1d731ee684d842a7787f4c3bb9409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Models/Black Player Preview.prefab using Guid(9dc1d731ee684d842a7787f4c3bb9409) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Black Player Preview' must be marked as Legacy.
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Black Player Preview(Clone)' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+The AnimationClip 'mixamo.com' used by the Animation component 'Black Player Preview(Clone)AnimatorPreview' must be marked as Legacy.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Animation.cpp line 2050]
+
+ -> (artifact id: '0e095370013c351c8a7d3eaa10fd5ba5') in 0.050326 seconds
+  Import took 0.058642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.216921 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Black Player Model 1.prefab
+  artifactKey: Guid(cd146a8251902ac429627c91f7dfb47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Black Player Model 1.prefab using Guid(cd146a8251902ac429627c91f7dfb47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ec68a422cc54968620d9ef3d058580') in 0.044406 seconds
+  Import took 0.053153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.616558 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Black Player Model.prefab
+  artifactKey: Guid(e8138a836a967ad49a8d4395dd6956ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Black Player Model.prefab using Guid(e8138a836a967ad49a8d4395dd6956ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51d0a61da0e29e5136e82b58c48ba030') in 0.047578 seconds
+  Import took 0.057229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.265317 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES
+  artifactKey: Guid(15c238e991b5dfc4ea50a6b113d1df34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES using Guid(15c238e991b5dfc4ea50a6b113d1df34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f104cee6b741df6d863fbb9d2c400cf') in 0.010507 seconds
+  Import took 0.015140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000686 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES
+  artifactKey: Guid(15c238e991b5dfc4ea50a6b113d1df34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES using Guid(15c238e991b5dfc4ea50a6b113d1df34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f104cee6b741df6d863fbb9d2c400cf') in 0.003681 seconds
+  Import took 0.009062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.402354 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/New Scene.unity
+  artifactKey: Guid(427c671e9aed353479ab52898d97495f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/New Scene.unity using Guid(427c671e9aed353479ab52898d97495f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8049d4444cafb03e3ee22ebc94c4d60a') in 0.008951 seconds
+  Import took 0.013560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.754119 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/Gameplay.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Gameplay.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab16be6bb85576b081dee573089aa2f') in 0.009501 seconds
+  Import took 0.014020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.193710 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/Gameplay.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Gameplay.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0592586eead59463c087b35285f1908') in 0.004399 seconds
+  Import took 0.009853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.035833 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Textures
+  artifactKey: Guid(1faff2742daac2e4a812652fff928d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Textures using Guid(1faff2742daac2e4a812652fff928d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696e1e854438c20e5ad04a86b4be24a9') in 0.008029 seconds
+  Import took 0.014547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.398843 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters
+  artifactKey: Guid(272faa0c9d0ccf34c9bf55735459c9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters using Guid(272faa0c9d0ccf34c9bf55735459c9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6405fe10c6a27bb57106f84857ca18') in 0.009685 seconds
+  Import took 0.014736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.633912 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a6c5d48caba1fbedff1c05d58f93b7') in 0.049108 seconds
+  Import took 0.056592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.765667 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Blue.asset
+  artifactKey: Guid(b393327a23129f3458120bb39105c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Blue.asset using Guid(b393327a23129f3458120bb39105c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Blue Player Preview' must be marked as Legacy.
+
+ -> (artifact id: 'ee64a7acdb69e060e1275ac246fae158') in 0.011608 seconds
+  Import took 0.017666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002366 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Blue.asset
+  artifactKey: Guid(b393327a23129f3458120bb39105c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Blue.asset using Guid(b393327a23129f3458120bb39105c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Blue Player Preview' must be marked as Legacy.
+
+ -> (artifact id: 'ee64a7acdb69e060e1275ac246fae158') in 0.011229 seconds
+  Import took 0.017922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.994667 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab
+  artifactKey: Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab using Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfba198f7b961c7176217e2eac36dd51') in 0.047538 seconds
+  Import took 0.053477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.093558 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab
+  artifactKey: Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab using Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec26d7ce2b5251050be54922508e718') in 0.048035 seconds
+  Import took 0.054459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.925941 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Red Player Model.prefab
+  artifactKey: Guid(ae33a922600d2a349971def44cf3ea07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Red Player Model.prefab using Guid(ae33a922600d2a349971def44cf3ea07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c27865342c74d3ee45b183a64864edb8') in 0.049710 seconds
+  Import took 0.056240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.685211 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Red Gameplay Character.prefab
+  artifactKey: Guid(1ccc7ffcd4fe2064aba8df708879c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Red Gameplay Character.prefab using Guid(1ccc7ffcd4fe2064aba8df708879c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ca9656cd7ab8f4ed3eb2fd1fe86f07') in 0.045505 seconds
+  Import took 0.052548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.672311 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Blue.asset
+  artifactKey: Guid(b393327a23129f3458120bb39105c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Blue.asset using Guid(b393327a23129f3458120bb39105c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Blue Player Preview' must be marked as Legacy.
+
+ -> (artifact id: 'f862d7dfc4acd5bf7bc99d811a2a8711') in 0.014471 seconds
+  Import took 0.020786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002163 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Blue.asset
+  artifactKey: Guid(b393327a23129f3458120bb39105c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Blue.asset using Guid(b393327a23129f3458120bb39105c41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Blue Player Preview' must be marked as Legacy.
+
+ -> (artifact id: 'f862d7dfc4acd5bf7bc99d811a2a8711') in 0.014766 seconds
+  Import took 0.020904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.560234 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Green.asset
+  artifactKey: Guid(8088c175345314346962ad814f595e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Green.asset using Guid(8088c175345314346962ad814f595e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Green Player Preview 1' must be marked as Legacy.
+
+ -> (artifact id: '49c0722b1b089fe624681c4337e10403') in 0.019098 seconds
+  Import took 0.028351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.246307 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Red.asset
+  artifactKey: Guid(08e7ec550335dcf4e8fd010f42ae472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Red.asset using Guid(08e7ec550335dcf4e8fd010f42ae472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Red Player Preview' must be marked as Legacy.
+
+ -> (artifact id: '3731e59c14d0b35796c503fd17757873') in 0.016634 seconds
+  Import took 0.022715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.396691 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Red.asset
+  artifactKey: Guid(08e7ec550335dcf4e8fd010f42ae472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Scriptables/Player/Red.asset using Guid(08e7ec550335dcf4e8fd010f42ae472c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The AnimationClip 'mixamo.com' used by the Animation component 'Red Player Preview' must be marked as Legacy.
+
+ -> (artifact id: 'd18715f6078de4af0bf6c76701ab80ad') in 0.014592 seconds
+  Import took 0.021780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.749654 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/Directional Light.prefab
+  artifactKey: Guid(01b6f20e8c46a5042a606691151556b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Directional Light.prefab using Guid(01b6f20e8c46a5042a606691151556b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b01c271e6002c3093a44d03448bbf7') in 0.009547 seconds
+  Import took 0.014044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.318068 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/Character Selection.unity
+  artifactKey: Guid(99e840278b9a9224380a21a4e0473cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Character Selection.unity using Guid(99e840278b9a9224380a21a4e0473cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa383b9744a3bc1e4a91e4395fd97bfb') in 0.009558 seconds
+  Import took 0.015952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.770056 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/Online.unity
+  artifactKey: Guid(8c6cde05609770148a9acac2f7be27da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Online.unity using Guid(8c6cde05609770148a9acac2f7be27da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7414b82b3fbd6729092328f1ad6afda1') in 0.007917 seconds
+  Import took 0.012476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006626 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/Online.unity
+  artifactKey: Guid(8c6cde05609770148a9acac2f7be27da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Online.unity using Guid(8c6cde05609770148a9acac2f7be27da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7414b82b3fbd6729092328f1ad6afda1') in 0.003517 seconds
+  Import took 0.008458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.639668 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/Offline.unity
+  artifactKey: Guid(56741cc9b1d6a904d8822b8c7f795a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Offline.unity using Guid(56741cc9b1d6a904d8822b8c7f795a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b763284714f2e00115b3c4365ea5d9') in 0.007910 seconds
+  Import took 0.014004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000876 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/Offline.unity
+  artifactKey: Guid(56741cc9b1d6a904d8822b8c7f795a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Offline.unity using Guid(56741cc9b1d6a904d8822b8c7f795a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b763284714f2e00115b3c4365ea5d9') in 0.003524 seconds
+  Import took 0.007908 seconds .
+
