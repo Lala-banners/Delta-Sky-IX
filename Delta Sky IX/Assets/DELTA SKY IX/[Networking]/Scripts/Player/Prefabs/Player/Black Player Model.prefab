@@ -3292,7 +3292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 895acf601296323408e90c3483f8d151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthRing: {fileID: 0}
+  healthRing: {fileID: 3828406196739619965}
   smoothSpeed: 1
   currentHealth: 100
   rb: {fileID: 786398212}
@@ -5135,5 +5135,16 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6772ab23e77e7a54aad85cecfe27f9fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3828406196739619965 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2433749099440674781, guid: faf603745d54b18449fb0bec09931928, type: 3}
+  m_PrefabInstance: {fileID: 1506263652142361504}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
