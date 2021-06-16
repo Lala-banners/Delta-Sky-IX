@@ -1701,10 +1701,10 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0196655c00aec5f47a4fb069d5b65e0b, type: 2}
+  - {fileID: 2100000, guid: e7a9d45a5b017cc41a816f15fb9864de, type: 2}
   - {fileID: 2100000, guid: 0f2583549a8b1a64db88bbd4a7925d48, type: 2}
   - {fileID: 2100000, guid: b552c1e0aca1cd942969a76bce2133b3, type: 2}
-  - {fileID: 2100000, guid: efc0298c2b83a2343974f51b6d46408e, type: 2}
+  - {fileID: 2100000, guid: c3932fa1f598d584d83675cb8c42f727, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3174,7 +3174,7 @@ GameObject:
   - component: {fileID: 786398212}
   - component: {fileID: 2728851408590520099}
   m_Layer: 0
-  m_Name: Black Player Model
+  m_Name: Black Player Model 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
