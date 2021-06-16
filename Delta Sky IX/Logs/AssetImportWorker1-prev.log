@@ -3586,3 +3586,559 @@ Received Import Request.
 Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Offline.unity using Guid(56741cc9b1d6a904d8822b8c7f795a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c87f3e358337895fff4c65bd2a37c2') in 0.020200 seconds
   Import took 0.027532 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 570.944379 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/Online.unity
+  artifactKey: Guid(8c6cde05609770148a9acac2f7be27da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Online.unity using Guid(8c6cde05609770148a9acac2f7be27da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bf3812db5dd71e0f4ea95c4f54f9c4') in 0.008127 seconds
+  Import took 0.013492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000654 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/Online.unity
+  artifactKey: Guid(8c6cde05609770148a9acac2f7be27da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Online.unity using Guid(8c6cde05609770148a9acac2f7be27da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bf3812db5dd71e0f4ea95c4f54f9c4') in 0.004007 seconds
+  Import took 0.008871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.364828 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab
+  artifactKey: Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab using Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ab5ee5ceff32a7b7606737b6b52223') in 0.239256 seconds
+  Import took 0.245643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.808502 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a022d7894fdc98533b34cf2a6a5483') in 0.049128 seconds
+  Import took 0.056506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.167871 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Room Player.prefab
+  artifactKey: Guid(15cb9a013bc0cb145878e01d347094fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Room Player.prefab using Guid(15cb9a013bc0cb145878e01d347094fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd36b206b22ff74071b9608816b8a6b') in 0.047217 seconds
+  Import took 0.053632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.661832 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab
+  artifactKey: Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab using Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f54ae88f4b10c9817c494c3b5e9395f') in 0.048511 seconds
+  Import took 0.054723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.417379 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80490f997074b11010a70c5d247a2197') in 0.040908 seconds
+  Import took 0.047292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.162989 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ed61900b9661d57ca549f9a144ac84') in 0.040361 seconds
+  Import took 0.048967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.572897 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Red Gameplay Character.prefab
+  artifactKey: Guid(1ccc7ffcd4fe2064aba8df708879c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Red Gameplay Character.prefab using Guid(1ccc7ffcd4fe2064aba8df708879c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8585fc2572def6cfdacc7d3ca9073c40') in 0.046841 seconds
+  Import took 0.053104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.387068 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab
+  artifactKey: Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab using Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81ec03fe23aee81ad5470736032bcd3') in 0.052804 seconds
+  Import took 0.059380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.465020 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab
+  artifactKey: Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab using Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbaf7513d7cae2144fa6121f07a12e8') in 0.042498 seconds
+  Import took 0.049528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.795832 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab
+  artifactKey: Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab using Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8dd1a7282a69db342d74c99b7969770') in 0.047586 seconds
+  Import took 0.053940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.464143 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/Gameplay.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Gameplay.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d10dc7899f218c7f71a25c33e0bc1cf') in 0.008624 seconds
+  Import took 0.013636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/Gameplay.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Gameplay.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d10dc7899f218c7f71a25c33e0bc1cf') in 0.003887 seconds
+  Import took 0.009026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.827683 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/SCENES/Offline.unity
+  artifactKey: Guid(56741cc9b1d6a904d8822b8c7f795a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/SCENES/Offline.unity using Guid(56741cc9b1d6a904d8822b8c7f795a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e36d957e34538f568004ed760db2fe') in 0.010088 seconds
+  Import took 0.015113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 237.342089 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab
+  artifactKey: Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab using Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760326250c96aa1a64e9f93e5e66906c') in 0.046221 seconds
+  Import took 0.053302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001012 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab
+  artifactKey: Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab using Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760326250c96aa1a64e9f93e5e66906c') in 0.043199 seconds
+  Import took 0.049170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.914510 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Room Player.prefab
+  artifactKey: Guid(15cb9a013bc0cb145878e01d347094fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Room Player.prefab using Guid(15cb9a013bc0cb145878e01d347094fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f694e2d3750eddb56b70f26b8847db0') in 0.047573 seconds
+  Import took 0.054119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.826937 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b604582e0b77baa473987bfaea51c576') in 0.042932 seconds
+  Import took 0.049556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.987687 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034249b0a03006d613fd0ba0ba57b31b') in 0.044829 seconds
+  Import took 0.050911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027695 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034249b0a03006d613fd0ba0ba57b31b') in 0.039342 seconds
+  Import took 0.047200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.642406 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720bbb53871467954d52bdc52d7bcebd') in 0.044900 seconds
+  Import took 0.050908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026038 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '720bbb53871467954d52bdc52d7bcebd') in 0.041187 seconds
+  Import took 0.048708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.056177 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02114f06a49d7052dcf11bc1dfd612b6') in 0.042701 seconds
+  Import took 0.049239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1888.790573 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Room Player.prefab
+  artifactKey: Guid(15cb9a013bc0cb145878e01d347094fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Room Player.prefab using Guid(15cb9a013bc0cb145878e01d347094fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04aa80ecdc5a548c3beb8908a1ec3b7e') in 0.048706 seconds
+  Import took 0.055438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.197358 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab
+  artifactKey: Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab using Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '194e3142cdcd8c640c722cf04cb6987b') in 0.047928 seconds
+  Import took 0.056722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.744835 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f288b70509bb43dcb131e088c3c959') in 0.049546 seconds
+  Import took 0.057830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.299244 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab
+  artifactKey: Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab using Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6723099886afaf79048d1615dfd6008') in 0.049323 seconds
+  Import took 0.055743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.744614 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Red Gameplay Character.prefab
+  artifactKey: Guid(1ccc7ffcd4fe2064aba8df708879c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Red Gameplay Character.prefab using Guid(1ccc7ffcd4fe2064aba8df708879c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cec6ff29f68f3b51baaaca0bea02922') in 0.046535 seconds
+  Import took 0.053875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.569860 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Room Player.prefab
+  artifactKey: Guid(15cb9a013bc0cb145878e01d347094fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Room Player.prefab using Guid(15cb9a013bc0cb145878e01d347094fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d2e3f3ec2c6484536ef4a8c3317ec3') in 0.045583 seconds
+  Import took 0.052490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.673231 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab
+  artifactKey: Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab using Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807b1ecd761d4c79f1d4445f536f219b') in 0.045643 seconds
+  Import took 0.053947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.626113 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2babbbf17fa79e88706fbc6322148d7f') in 0.050053 seconds
+  Import took 0.056249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.695146 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bde85a32bb876858a2cb86e70899d53c') in 0.043544 seconds
+  Import took 0.050184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.495864 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fceb4f209678d3352fc4a225a192c8c3') in 0.041931 seconds
+  Import took 0.048525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.856225 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '164ac45ca1bad63a60f8957c12c00211') in 0.040432 seconds
+  Import took 0.046609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.858034 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24954e44c0bfd9e6025d7d36ee0c5914') in 0.040241 seconds
+  Import took 0.046519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.484074 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab
+  artifactKey: Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Blue Game Character.prefab using Guid(c92122374d0bfac40ac25923be498041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c299459365f9a7d10c4515e8cc148a') in 0.040410 seconds
+  Import took 0.047138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.600910 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab
+  artifactKey: Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Black Gameplay Character.prefab using Guid(2819182213add184f81214160b193c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60e0bd9f54f6b649c9b45d76c9427fa') in 0.044218 seconds
+  Import took 0.050269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.145135 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab
+  artifactKey: Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab using Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff24b31be31afd4eaec0a43f196379b') in 0.047053 seconds
+  Import took 0.055272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.622693 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Red Gameplay Character.prefab
+  artifactKey: Guid(1ccc7ffcd4fe2064aba8df708879c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Red Gameplay Character.prefab using Guid(1ccc7ffcd4fe2064aba8df708879c833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f97dbaaa665113f1f35d54cd3da0433') in 0.047033 seconds
+  Import took 0.055796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.222568 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab
+  artifactKey: Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab using Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18531092d5ee48f7d1660cbe6ac262bf') in 0.043390 seconds
+  Import took 0.049563 seconds .
+
+========================================================================
+Received Prepare
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 5.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.0 MB.
+System memory in use after: 93.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3595.
+Total: 5.324900 ms (FindLiveObjects: 0.609500 ms CreateObjectMapping: 0.278300 ms MarkObjects: 4.287500 ms  DeleteObjects: 0.147200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006410 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.261 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.0 MB.
+System memory in use after: 146.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3570.
+Total: 3.539500 ms (FindLiveObjects: 0.413500 ms CreateObjectMapping: 0.195300 ms MarkObjects: 2.817800 ms  DeleteObjects: 0.111300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.1 MB.
+System memory in use after: 146.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3572.
+Total: 2.735800 ms (FindLiveObjects: 0.471300 ms CreateObjectMapping: 0.165400 ms MarkObjects: 2.013100 ms  DeleteObjects: 0.084600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007077 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.072 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.1 MB.
+System memory in use after: 146.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3574.
+Total: 3.288000 ms (FindLiveObjects: 0.447600 ms CreateObjectMapping: 0.138100 ms MarkObjects: 2.610200 ms  DeleteObjects: 0.090100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006235 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.044 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.1 MB.
+System memory in use after: 146.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3576.
+Total: 2.815700 ms (FindLiveObjects: 0.364300 ms CreateObjectMapping: 0.141500 ms MarkObjects: 2.233300 ms  DeleteObjects: 0.075700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.225 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.1 MB.
+System memory in use after: 146.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3578.
+Total: 4.428700 ms (FindLiveObjects: 0.638300 ms CreateObjectMapping: 0.250500 ms MarkObjects: 3.419100 ms  DeleteObjects: 0.118200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006203 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.024 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.1 MB.
+System memory in use after: 146.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3580.
+Total: 3.103300 ms (FindLiveObjects: 0.377900 ms CreateObjectMapping: 0.185600 ms MarkObjects: 2.458300 ms  DeleteObjects: 0.080300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006479 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.023 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.1 MB.
+System memory in use after: 146.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3582.
+Total: 2.550100 ms (FindLiveObjects: 0.311400 ms CreateObjectMapping: 0.133700 ms MarkObjects: 2.022800 ms  DeleteObjects: 0.081100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006581 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.1 MB.
+System memory in use after: 146.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3584.
+Total: 3.264200 ms (FindLiveObjects: 0.583400 ms CreateObjectMapping: 0.209200 ms MarkObjects: 2.383900 ms  DeleteObjects: 0.085300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005869 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.1 MB.
+System memory in use after: 146.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3586.
+Total: 3.388900 ms (FindLiveObjects: 0.394100 ms CreateObjectMapping: 0.136300 ms MarkObjects: 2.774500 ms  DeleteObjects: 0.082000 ms)
+
