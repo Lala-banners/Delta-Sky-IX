@@ -73,9 +73,9 @@
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Managers/Enemy/NetworkAlienSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Player/Character.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIxNetworkManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIXPlayerNet.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIXPlayerSelection.cs" />
       <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/UI/Lobby.cs" />
+      <option value="$PROJECT_DIR$/Assets/DELTA SKY IX/[Networking]/Scripts/Networking/DeltaSkyIXPlayerNet.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sju7pSnoYomEvPioJ2236zifnF" />
@@ -147,7 +147,7 @@
       <workItem from="1623026541270" duration="18542000" />
       <workItem from="1623197831908" duration="15253000" />
       <workItem from="1623742018571" duration="1969000" />
-      <workItem from="1623799485030" duration="7604000" />
+      <workItem from="1623799485030" duration="8092000" />
     </task>
     <servers />
   </component>

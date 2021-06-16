@@ -155,8 +155,8 @@ namespace DeltaSkyIX.UI
         
         public void OnMatchStarted()
         {
-            this.gameObject.SetActive(false);
-            //camera.enabled = false;
+            gameObject.SetActive(false);
+            
         }
 
         // Update is called once per frame

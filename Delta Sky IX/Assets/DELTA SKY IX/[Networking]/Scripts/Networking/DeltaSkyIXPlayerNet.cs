@@ -171,9 +171,18 @@ namespace DeltaSkyIX.Networking
             }
         }
 
+        /// <summary>
+        /// Spawn the character prefabs in the scene PLEASE
+        /// </summary>
         public override void OnStartClient()
         {
             DeltaSkyIxNetworkManager.Instance.AddPlayer(this);
+            var spawnablePrefabs = Resources.LoadAll<GameObject>("Gameplay Characters");
+
+            foreach (var prefab in spawnablePrefabs)
+            {
+                ClientScene.RegisterPrefab(prefab);
+            }
         }
 
         // Runs only when the object is connected is the local player
