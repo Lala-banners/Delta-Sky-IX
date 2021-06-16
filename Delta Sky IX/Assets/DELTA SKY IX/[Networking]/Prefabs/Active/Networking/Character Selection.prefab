@@ -857,6 +857,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 08e7ec550335dcf4e8fd010f42ae472c, type: 2}
   lobbyMenu: {fileID: 0}
   goBack: {fileID: 1559562396}
+  savePlayer: {fileID: 1687039042914784272}
 --- !u!1 &1687039042914784278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,7 +1069,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1687039043298550977
 Transform:
   m_ObjectHideFlags: 0

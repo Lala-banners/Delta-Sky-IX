@@ -20,6 +20,7 @@ namespace DeltaSkyIX.Networking
         private List<GameObject> characterInstances = new List<GameObject>();
         public GameObject lobbyMenu;
         public Button goBack;
+        public Button savePlayer;
 
         public override void OnStartClient() {
             base.OnStartClient();
@@ -78,6 +79,10 @@ namespace DeltaSkyIX.Networking
             goBack.onClick.AddListener(() => {
                 lobbyMenu.SetActive(true);
                 gameObject.SetActive(false);
+            });
+            
+            savePlayer.onClick.AddListener(() => {
+                SelectCharacter();
             });
         }
     }
