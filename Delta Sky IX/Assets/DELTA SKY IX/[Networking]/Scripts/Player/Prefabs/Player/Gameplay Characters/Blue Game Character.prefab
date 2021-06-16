@@ -1134,7 +1134,7 @@ CharacterController:
   m_GameObject: {fileID: 2241087291339267990}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Height: 2
   m_Radius: 0.5
@@ -1150,7 +1150,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2241087291339267990}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b075516a4b5bf1145b39d4b9f4c11c60, type: 3}
   m_Name: 
@@ -1214,7 +1214,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2241087291339267990}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 895acf601296323408e90c3483f8d151, type: 3}
   m_Name: 
@@ -1231,7 +1231,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2241087291339267990}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 83392ae5c1b731446909f252fd494ae4, type: 3}
   m_Name: 
@@ -1271,7 +1271,7 @@ BoxCollider:
   m_GameObject: {fileID: 2241087291339267990}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.25, y: 0.45, z: 0.3}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5123,6 +5123,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8072065903219706601, guid: faf603745d54b18449fb0bec09931928, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8153661273918476929, guid: faf603745d54b18449fb0bec09931928, type: 3}
       propertyPath: m_Name
       value: HUD
@@ -5157,7 +5161,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 4613158344621092016}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf8ea6494535254aaf8c84aa1bde369, type: 3}
   m_Name: 
