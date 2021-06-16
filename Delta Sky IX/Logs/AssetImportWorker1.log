@@ -3165,3 +3165,11 @@ System memory in use after: 145.1 MB.
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3494.
 Total: 3.659400 ms (FindLiveObjects: 0.678900 ms CreateObjectMapping: 0.581000 ms MarkObjects: 2.310100 ms  DeleteObjects: 0.087800 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1186.098256 seconds.
+  path: Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab
+  artifactKey: Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DELTA SKY IX/[Networking]/Scripts/Player/Prefabs/Player/Gameplay Characters/Green Gameplay Character.prefab using Guid(ee1d4d5a1baa7c4409cb8a497a7bcd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca14502d4d2349d609cbd263ffd6f417') in 0.258397 seconds
+  Import took 0.267826 seconds .
+
