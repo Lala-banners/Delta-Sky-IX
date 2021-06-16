@@ -9780,7 +9780,7 @@ MonoBehaviour:
   disconnectInactiveConnections: 0
   disconnectInactiveTimeout: 60
   authenticator: {fileID: 0}
-  playerPrefab: {fileID: 5475137832008325254, guid: e8138a836a967ad49a8d4395dd6956ee, type: 3}
+  playerPrefab: {fileID: 1599397918103627859, guid: 9fd104f36206a2e4d8be4e5db1cdb2e3, type: 3}
   autoCreatePlayer: 1
   playerSpawnMethod: 1
   spawnPrefabs:

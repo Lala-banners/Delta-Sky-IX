@@ -1,8 +1,10 @@
 using DeltaSkyIX.Player;
 using Mirror;
+using System;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace DeltaSkyIX.Networking
 {
@@ -17,6 +19,7 @@ namespace DeltaSkyIX.Networking
         private int currentCharacterIndex = 0;
         private List<GameObject> characterInstances = new List<GameObject>();
         public GameObject lobbyMenu;
+        public Button goBack;
 
         public override void OnStartClient() {
             base.OnStartClient();
@@ -69,6 +72,13 @@ namespace DeltaSkyIX.Networking
             
             characterInstances[currentCharacterIndex].SetActive(true);
             nameText.text = characters[currentCharacterIndex].CharacterName;
+        }
+
+        private void Update() {
+            goBack.onClick.AddListener(() => {
+                lobbyMenu.SetActive(true);
+                gameObject.SetActive(false);
+            });
         }
     }
 }
