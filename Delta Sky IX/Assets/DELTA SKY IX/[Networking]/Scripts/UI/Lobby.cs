@@ -30,17 +30,9 @@ namespace DeltaSkyIX.UI
         [SerializeField] private GameObject matchSettingsMenu;
         [SerializeField] private Button goToMatchSettings;
         [SerializeField] private Button returnButton;
-        [SerializeField] private Button saveGameMode;
         [SerializeField] private Toggle pvpToggle;
         [SerializeField] private Toggle teamToggle;
 
-        [Space] [Header("Character Selection")] 
-        [SerializeField] private DeltaSkyIXPlayerSelection selection;
-        [SerializeField] private Button selectCharacter;
-        [SerializeField] private GameObject characterSelectMenu;
-        [SerializeField] private Button rightCharacter;
-        [SerializeField] private Button leftCharacter;
-        
         // Flipping bool that determines which column the connected player will be added to
         private bool assigningToLeft = true;
 
@@ -153,23 +145,7 @@ namespace DeltaSkyIX.UI
                     GameModeTeam();
                 }
             });
-            
-            //Save button saves the choices
-            saveGameMode.onClick.AddListener(() => 
-            {
-                //Save preferences
-                selection.SelectCharacter();
-                SceneManager.LoadScene("Gameplay");
-            });
-            
-            selectCharacter.onClick.AddListener(() => 
-            {
-                matchSettingsMenu.SetActive(false);
-                characterSelectMenu.SetActive(true);
-            });
         }
-        
-        
         
         public void GameModePvP() {
             Debug.Log("PvP Mode Active");
@@ -190,17 +166,6 @@ namespace DeltaSkyIX.UI
         {
             startGameButton.interactable = AllPlayersReady();
             
-            //Left and right to cycle through the characters
-            rightCharacter.onClick.AddListener(() => 
-            {
-                selection.Right();
-            });
-            
-            //Left and right to cycle through the characters
-            leftCharacter.onClick.AddListener(() => 
-            {
-                selection.Left();
-            });
         }
 
         private bool AllPlayersReady()

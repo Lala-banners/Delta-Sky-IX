@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Red
   m_EditorClassIdentifier: 
   characterName: Venus
-  characterPreviewPrefab: {fileID: 2377331095824018463, guid: f994146105bab9949a06dd8729faacb1, type: 3}
-  gameplayCharacterPrefab: {fileID: 6373781396220336259, guid: c3b49688bd0ba944b9c34c24cd2f4700, type: 3}
+  characterPreviewPrefab: {fileID: 4113307394889141434, guid: 68535f36ab183a3438b9c5d522122b4f, type: 3}
+  gameplayCharacterPrefab: {fileID: 2377331095824018463, guid: f994146105bab9949a06dd8729faacb1, type: 3}

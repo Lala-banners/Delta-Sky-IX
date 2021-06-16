@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Black
   m_EditorClassIdentifier: 
   characterName: Lord
-  characterPreviewPrefab: {fileID: 5475137832008325254, guid: e8138a836a967ad49a8d4395dd6956ee, type: 3}
-  gameplayCharacterPrefab: {fileID: 6373781396220336259, guid: 653d60de4dc691442915db2d78a98bcb, type: 3}
+  characterPreviewPrefab: {fileID: 5475137832008325254, guid: cd146a8251902ac429627c91f7dfb47b, type: 3}
+  gameplayCharacterPrefab: {fileID: 5475137832008325254, guid: e8138a836a967ad49a8d4395dd6956ee, type: 3}
