@@ -9841,10 +9841,10 @@ MonoBehaviour:
   autoCreatePlayer: 1
   playerSpawnMethod: 1
   spawnPrefabs:
-  - {fileID: 5475137832008325254, guid: e8138a836a967ad49a8d4395dd6956ee, type: 3}
-  - {fileID: 9131542416983052591, guid: e1e1297e6e874bd46ab3cf0178195c17, type: 3}
-  - {fileID: 690227701120163303, guid: 66605dfe37ab60c40ac81e328ae7e620, type: 3}
-  - {fileID: 2377331095824018463, guid: f994146105bab9949a06dd8729faacb1, type: 3}
+  - {fileID: 8476893576443009239, guid: 2819182213add184f81214160b193c55, type: 3}
+  - {fileID: 2241087291339267990, guid: c92122374d0bfac40ac25923be498041, type: 3}
+  - {fileID: 5621750631875511841, guid: ee1d4d5a1baa7c4409cb8a497a7bcd28, type: 3}
+  - {fileID: 1735494916114040015, guid: 1ccc7ffcd4fe2064aba8df708879c833, type: 3}
   discovery: {fileID: 6677164801898726741}
 --- !u!114 &6938106106842761024
 MonoBehaviour:
