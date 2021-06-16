@@ -19,6 +19,7 @@ namespace DeltaSkyIX.UI
         [SerializeField] private GameObject leftTeamHolder;
         [SerializeField] private GameObject rightTeamHolder;
         [SerializeField] private GameObject tempPlane;
+        public Camera camera;
         
         [Header("Lobby Buttons")]
         [SerializeField] private Button readyUpButton;
@@ -158,6 +159,7 @@ namespace DeltaSkyIX.UI
         public void OnMatchStarted()
         {
             this.gameObject.SetActive(false);
+            camera.enabled = false;
         }
 
         // Update is called once per frame

@@ -3446,12 +3446,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 4853840213253938272}
-  cam: {fileID: 0}
+  cam: {fileID: 4633571406551083516}
   turnSmoothTime: 0.1
   gravity: -9.81
   playerVelocity: {x: 0, y: 0, z: 0}
-  speed: 6
-  jumpHeight: 1
+  speed: 10
+  jumpHeight: 5
   keyInputs:
     horizontal: 0
     vertical: 0
@@ -5153,9 +5153,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: faf603745d54b18449fb0bec09931928, type: 3}
---- !u!4 &1246698573363407351 stripped
+--- !u!4 &4633571406551083516 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 2932609287353849458, guid: faf603745d54b18449fb0bec09931928, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8769161041923888761, guid: faf603745d54b18449fb0bec09931928, type: 3}
   m_PrefabInstance: {fileID: 4179218566030245765}
   m_PrefabAsset: {fileID: 0}
 --- !u!20 &4633571406551083517 stripped
@@ -5196,3 +5196,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &1246698573363407351 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2932609287353849458, guid: faf603745d54b18449fb0bec09931928, type: 3}
+  m_PrefabInstance: {fileID: 4179218566030245765}
+  m_PrefabAsset: {fileID: 0}
