@@ -1,10 +1,7 @@
-using System.Collections;
+using DeltaSkyIX.Networking;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
-using DeltaSkyIX.Networking;
-using UnityEngine.SceneManagement;
 
 namespace DeltaSkyIX.UI
 {
@@ -19,7 +16,7 @@ namespace DeltaSkyIX.UI
         [SerializeField] private GameObject leftTeamHolder;
         [SerializeField] private GameObject rightTeamHolder;
         [SerializeField] private GameObject tempPlane;
-        public Camera camera;
+        //public Camera camera;
         
         [Header("Lobby Buttons")]
         [SerializeField] private Button readyUpButton;
@@ -159,14 +156,13 @@ namespace DeltaSkyIX.UI
         public void OnMatchStarted()
         {
             this.gameObject.SetActive(false);
-            camera.enabled = false;
+            //camera.enabled = false;
         }
 
         // Update is called once per frame
         private void Update()
         {
             startGameButton.interactable = AllPlayersReady();
-            
         }
 
         private bool AllPlayersReady()
