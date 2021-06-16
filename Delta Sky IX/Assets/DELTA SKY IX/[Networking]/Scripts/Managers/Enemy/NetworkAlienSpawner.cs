@@ -5,28 +5,24 @@ namespace DeltaSky.Networking.Enemy
 {
     public class NetworkAlienSpawner : NetworkBehaviour
     {
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.A))
-            {
-                CmdSpawnObj();
-            }
-        }
+        public GameObject enemyPrefab;
+        public Transform[] spawnPos;
 
+        public override void OnStartServer() {
+            base.OnStartServer();
+            CmdSpawnObj();
+        }
+        
         /// <summary>
-        /// This is used for Networking the enemy Spawner (later)
+        /// This is used for Networking the enemy Spawner
         /// </summary>
         [Command]
-        public void CmdSpawnObj()
-        {
+        public void CmdSpawnObj() {
             //This object now only lives on server
-            GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
-            
-            //Put cube as 10x10x10
-            cube.transform.position = Vector3.zero * 10;
-         
+            GameObject enemy = Instantiate(enemyPrefab, spawnPos[Random.Range(0, spawnPos.Length)].position, Quaternion.identity);
+
             //Spawn object into all clients from server
-            NetworkServer.Spawn(cube);
+            NetworkServer.Spawn(enemy);
         }
     }
 }

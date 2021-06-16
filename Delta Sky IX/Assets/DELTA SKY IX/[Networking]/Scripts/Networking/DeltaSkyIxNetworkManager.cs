@@ -1,8 +1,7 @@
-using UnityEngine;
 using Mirror;
-using System;
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
 
 namespace DeltaSkyIX.Networking
 {
@@ -80,7 +79,8 @@ namespace DeltaSkyIX.Networking
 
         // Runs when a client connects to the server. This function is responsible for creating the player
         // object and placing it in the scene. It is also responsible for making sure the connection is aware
-        // of what their player object is.
+        // of what their player object is.\\
+        //ask james
         public override void OnServerAddPlayer(NetworkConnection _connection)
         {
             // Give us the next spawn position depending on the spawnMode

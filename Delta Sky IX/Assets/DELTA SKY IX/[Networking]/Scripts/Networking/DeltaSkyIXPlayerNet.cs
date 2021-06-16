@@ -1,6 +1,8 @@
+using DeltaSky.Controllers.UI;
 using DeltaSkyIX.Player;
 using DeltaSkyIX.UI;
 using Mirror;
+using Mirror.Experimental;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
@@ -13,10 +15,11 @@ namespace DeltaSkyIX.Networking
         [SyncVar] public string username = "";
         [SyncVar] public bool ready = false;
 
-        [SerializeField] private new CameraMotor camera;
-        //[SerializeField] private PlayerMotor playerMotor;
+        [SerializeField] private Camera camera;
         [SerializeField] private GameObject[] matchObjects;
-
+        [SerializeField] private FirstPersonMovement movement;
+        [SerializeField] private FollowMouse mouseRotation;
+        [SerializeField] private Gun shooting;
         public UnityEvent onMatchStarted = new UnityEvent();
 
         private Lobby lobby;
@@ -105,8 +108,12 @@ namespace DeltaSkyIX.Networking
             
             DeltaSkyIXPlayerNet player = DeltaSkyIxNetworkManager.Instance.LocalPlayer;
             FindObjectOfType<Lobby>().OnMatchStarted();
-            //player.playerMotor.Enable();
-            player.camera.Enable();
+            player.movement.Enable();
+            player.GetComponentInChildren<Camera>().enabled = true;
+            player.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+            player.GetComponent<NetworkRigidbody>().enabled = true;
+            player.mouseRotation.enabled = true;
+            player.shooting.enabled = true;
         }
 
         #endregion
@@ -142,6 +149,7 @@ namespace DeltaSkyIX.Networking
         private void Start()
         {
             SetUsername(DeltaSkyIxNetworkManager.Instance.PlayerName);
+            SetUsername(DeltaSkyIxNetworkManager.Instance.GameName);
         }
 
         // Update is called once per frame
@@ -160,7 +168,7 @@ namespace DeltaSkyIX.Networking
                 if(lobby != null && !hasJoinedLobby)
                 {
                     hasJoinedLobby = true;
-                    lobby.OnPlayerConnected(this);
+                    lobby.OnPlayerConnected(this); 
                 }
             }
         }
@@ -173,8 +181,7 @@ namespace DeltaSkyIX.Networking
         // Runs only when the object is connected is the local player
         public override void OnStartLocalPlayer()
         {
-            // Load the scene with the lobby
-            LevelManager.LoadLevel("Gameplay");
+            
         }
 
         // Runs when the client is disconnected from the server

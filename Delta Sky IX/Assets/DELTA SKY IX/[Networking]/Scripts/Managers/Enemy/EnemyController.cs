@@ -36,8 +36,11 @@ namespace DeltaSky.Controllers
         // Update is called once per frame
         void Update()
         {
-            ChasePlayer();
-            
+            if (_target != null)
+            {
+                ChasePlayer();
+            }
+
             smoothSpeed = 3f * Time.deltaTime; //To smooth transition from one colour to another
             Health();
             UpdateHealthRing();

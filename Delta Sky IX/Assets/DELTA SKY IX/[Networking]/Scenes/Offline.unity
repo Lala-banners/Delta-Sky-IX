@@ -9749,7 +9749,7 @@ MonoBehaviour:
   secretHandshake: -2924573366761819826
   serverBroadcastListenPort: 47777
   ActiveDiscoveryInterval: 3
-  transport: {fileID: 0}
+  transport: {fileID: 6677164801898726740}
   onServerFound:
     m_PersistentCalls:
       m_Calls: []
@@ -9772,18 +9772,22 @@ MonoBehaviour:
   serverTickRate: 30
   serverBatching: 0
   serverBatchInterval: 0
-  offlineScene: Assets/DELTA SKY IX/[Networking]/Scenes/Offline.unity
-  onlineScene: Assets/DELTA SKY IX/[Networking]/Scenes/Gameplay.unity
+  offlineScene: Assets/DELTA SKY IX/[Networking]/SCENES/Offline.unity
+  onlineScene: Assets/DELTA SKY IX/[Networking]/SCENES/Online.unity
   transport: {fileID: 6677164801898726740}
   networkAddress: localhost
   maxConnections: 100
   disconnectInactiveConnections: 0
   disconnectInactiveTimeout: 60
   authenticator: {fileID: 0}
-  playerPrefab: {fileID: 6373781396220336259, guid: f978a6ffab0d2f54e84b6e00b55ceba8, type: 3}
+  playerPrefab: {fileID: 1599397918103627859, guid: 9fd104f36206a2e4d8be4e5db1cdb2e3, type: 3}
   autoCreatePlayer: 1
-  playerSpawnMethod: 0
-  spawnPrefabs: []
+  playerSpawnMethod: 1
+  spawnPrefabs:
+  - {fileID: 5475137832008325254, guid: e8138a836a967ad49a8d4395dd6956ee, type: 3}
+  - {fileID: 9131542416983052591, guid: e1e1297e6e874bd46ab3cf0178195c17, type: 3}
+  - {fileID: 690227701120163303, guid: 66605dfe37ab60c40ac81e328ae7e620, type: 3}
+  - {fileID: 2377331095824018463, guid: f994146105bab9949a06dd8729faacb1, type: 3}
   discovery: {fileID: 6677164801898726741}
 --- !u!114 &6938106106842761024
 MonoBehaviour:

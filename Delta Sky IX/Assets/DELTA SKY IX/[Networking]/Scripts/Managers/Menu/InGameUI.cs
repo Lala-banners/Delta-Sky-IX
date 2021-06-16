@@ -31,19 +31,15 @@ namespace DeltaSky.Controllers.UI
 
         [Header("HUD")]
         public GameObject miniMapUI;
-        public GameObject playerHealth;
         
         // Start is called before the first frame update
         void Start()
         {
-            playerHealth.SetActive(true);
             gameOverPanel.SetActive(false);
             winPanel.SetActive(false);
         }
 
         public void GameOver() {
-            Cursor.visible = true;
-            playerHealth.SetActive(false);
             gameOverPanel.SetActive(true);
             miniMapUI.SetActive(false);
             Time.timeScale = 0;
@@ -58,8 +54,6 @@ namespace DeltaSky.Controllers.UI
 
         public void WinGame()
         {
-            Cursor.visible = true;
-            playerHealth.SetActive(false);
             winPanel.SetActive(true);
             miniMapUI.SetActive(false);
             Time.timeScale = 0;
@@ -71,10 +65,7 @@ namespace DeltaSky.Controllers.UI
         }
 
         public void StartGame() {
-            Cursor.visible = false;
             miniMapUI.SetActive(true);
-            playerHealth.SetActive(true);
         }
-        
     }
 }
