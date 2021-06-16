@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Venus
   characterPreviewPrefab: {fileID: 4113307394889141434, guid: 68535f36ab183a3438b9c5d522122b4f, type: 3}
-  gameplayCharacterPrefab: {fileID: 2377331095824018463, guid: f994146105bab9949a06dd8729faacb1, type: 3}
+  gameplayCharacterPrefab: {fileID: 1735494916114040015, guid: 1ccc7ffcd4fe2064aba8df708879c833, type: 3}
